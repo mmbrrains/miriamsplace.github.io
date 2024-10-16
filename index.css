@@ -1,0 +1,44 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Menlo, Courier New, monospace;
+    font-size: 13px;
+    line-height: 26px;
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c0c0c0;
+    text-decoration: underline;
+}
+
+div#header {
+    height: 32px;
+    padding-top: 32px;
+}
+
+div#tagline {
+    font-size: 7px;
+    padding-bottom: 32px;
+}
+
+div#textz {
+    padding: 16px;
+}
+
+div#footer {
+    padding: 16px;
+    padding-top: 32px;
+}
+
+div#links {
+    padding: 16px;
+    padding-bottom: 32px;
+    padding-top: 0;
+}
