@@ -1,6 +1,7 @@
 let div = document.getElementById('tagline')
 let rnd = Math.random()
 
+/*
 if (rnd < 0.25) {
     div.style.fontSize = '11.8px'
     div.innerHTML = ''
@@ -15,3 +16,4 @@ if (rnd < 0.25) {
     div.style.fontSize = '10.9px'
     div.innerHTML = 'Have fun, be safe!'
 }
+*/
