@@ -31,7 +31,7 @@ div#links a:hover {
 div#header {
     font-size: 13px;
     height: 32px;
-    padding-top: 256px;
+    padding-top: 128px;
     text-align: center;
 }
 
@@ -48,7 +48,7 @@ div#textz a:hover {
 
 div#footer {
     padding: 16px;
-    padding-top: 32px;
+    padding-top: 64px;
     text-align: center;
 }
 
