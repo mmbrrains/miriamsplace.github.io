@@ -1,6 +1,3 @@
 window.onload = function() {
-    setTimeout(function() {
-        document.body.classList.add('ready');
-    }, 400);
+    document.body.classList.add('ready');
 };
-
