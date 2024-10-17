@@ -45,6 +45,6 @@ div#footer {
 div#links {
     padding: 16px;
     padding-bottom: 64px;
-    padding-top: 64px;
+    padding-top: 0;
     text-align: center;
 }
