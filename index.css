@@ -9,7 +9,7 @@ body {
 }
 
 img {
-    padding-top: 64px;
+    padding-top: 32px;
     width: 100px;
     max-width: 100%;
     height: auto;
@@ -37,8 +37,8 @@ div#tagline {
 }
 
 div#textz {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 div#footer {
