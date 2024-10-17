@@ -34,9 +34,12 @@ div#header {
     text-align: center;
 }
 
+div#textz {
+    padding-top: 64px;
+}
+
 div#textz a {
     color: #ff0062
-    padding-top: 64px;
     padding: 16px;
     text-align: center;
 }
