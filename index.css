@@ -4,7 +4,10 @@ body {
     font-family: Menlo, Courier New, monospace;
     font-size: 13px;
     line-height: 26px;
-    
+    margin: 0;
+    text-align: center;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -17,9 +20,7 @@ a:hover {
 
 div#header {
     height: 32px;
-    padding-top: 128px;
-    font-size: 13px;
-
+    padding-top: 32px;
 }
 
 div#tagline {
