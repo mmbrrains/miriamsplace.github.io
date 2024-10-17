@@ -9,13 +9,12 @@ body {
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+    color: #ff0062;
+    text-decoration: underline;
 }
 
 a:hover {
-    color: #c0c0c0;
-    text-decoration: underline;
+    color: #b00000
 }
 
 div#header {
