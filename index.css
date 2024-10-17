@@ -20,25 +20,30 @@ a:hover {
 
 div#header {
     height: 32px;
-    padding-top: 32px;
+    padding-top: 128px;
+    text-align: center;
 }
 
 div#tagline {
     font-size: 7px;
     padding-bottom: 32px;
+    text-align: center;
 }
 
 div#textz {
     padding: 16px;
+    text-align: center;
 }
 
 div#footer {
     padding: 16px;
     padding-top: 32px;
+    text-align: center;
 }
 
 div#links {
     padding: 16px;
     padding-bottom: 32px;
     padding-top: 0;
+    text-align: center;
 }
