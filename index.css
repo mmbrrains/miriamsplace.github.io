@@ -12,6 +12,7 @@ img {
     padding-top: 32px;
     width: 150px;
     max-width: 100%;
+    border: 5px solid #fffff;
     height: auto;
 }
 
