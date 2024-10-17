@@ -12,6 +12,8 @@ img {
     width: 150px;
     max-width: 100%;
     border: 1px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
     height: auto;
 }
 
