@@ -2,7 +2,7 @@ body {
     background-color: #000000;
     color: #ffffff;
     font-family: Menlo, Courier New, monospace;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 26px;
     margin: 0;
     text-align: center;
@@ -10,7 +10,7 @@ body {
 
 img {
     padding-top: 32px;
-    width: 100px;
+    width: 150px;
     max-width: 100%;
     height: auto;
 }
@@ -33,7 +33,7 @@ div#header {
 
 div#tagline {
     text-align: center;
-    font-size: 7pt;
+    font-size: 5pt;
 }
 
 div#textz {
@@ -42,11 +42,11 @@ div#textz {
 }
 
 div#footer {
-    padding: 16px;
+    padding: 12px;
     text-align: center;
 }
 
 div#links {
-    padding: 16px;
+    padding: 12px;
     text-align: center;
 }
