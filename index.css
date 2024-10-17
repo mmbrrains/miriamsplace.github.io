@@ -18,6 +18,16 @@ div#footer a:hover {
     text-decoration: underline;
 }
 
+div#links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+div#links a:hover {
+    color: #c0c0c0;
+    text-decoration: underline;
+}
+
 div#header {
     font-size: 13px;
     height: 32px;
