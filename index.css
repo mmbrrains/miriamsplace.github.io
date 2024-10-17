@@ -1,16 +1,18 @@
+html, body {
+    height: 100%; /* Full height for html and body */
+    margin: 0; /* Remove default margin */
+}
+
 body {
     background-color: #000000;
     color: #ffffff;
     font-family: Menlo, Courier New, monospace;
     font-size: 13px;
     line-height: 26px;
-    margin: 0;
     display: flex; /* Enable Flexbox on the body */
     flex-direction: column; /* Align items in a column */
     justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
-    height: 100%;
-}
+    align-items: center; /* Center items horizontally */}
 
 a {
     color: #ffffff;
@@ -48,6 +50,10 @@ div#links {
     padding-bottom: 32px;
     padding-top: 0;
 }
+
 #header, #textz, #footer, #links {
     border: 1px solid white; /* Temporary border for visualization */
+    padding: 20px; /* Padding for visual space */
+    margin: 10px; /* Margin to separate sections */
+    text-align: center; /* Center text */
 }
