@@ -26,12 +26,12 @@ div#header {
 
 div#tagline {
     text-align: center;
-    font-size: 7pt;
+    font-size: 8pt;
 }
 
 div#textz {
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 div#footer {
