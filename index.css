@@ -11,7 +11,7 @@ body {
 img {
     width: 150px;
     max-width: 100%;
-    border: 3px solid #ffffff;
+    border: 1px solid #ffffff;
     height: auto;
 }
 
