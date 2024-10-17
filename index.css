@@ -24,6 +24,11 @@ div#header {
     text-align: center;
 }
 
+div#tagline {
+    text-align: center;
+    font-size: 10pt;
+}
+
 div#textz {
     padding-top: 64px;
     padding-bottom: 64px;
