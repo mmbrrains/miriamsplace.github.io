@@ -10,6 +10,8 @@ body {
 
 p {
   text-align: justify;
+  text-align-last: center;
+  margin: 20px;
 }
 
 div#header {
