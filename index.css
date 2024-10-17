@@ -24,7 +24,7 @@ div#header {
     text-align: center;
 }
 
-div#textz {
+div#textz a {
     color: #ff0062
     padding: 16px;
     text-align: center;
