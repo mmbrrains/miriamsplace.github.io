@@ -1,5 +1,4 @@
 body {
-    animation: fadeIn 3s;
     background-color: #000000;
     color: #ffffff;
     font-family: Menlo, Courier New, monospace;
@@ -9,23 +8,13 @@ body {
     text-align: center;
 }
 
-div#footer a {
+a {
     color: #ffffff;
     text-decoration: none;
 }
 
-div#footer a:hover {
-    color: #c0c0c0;
-    text-decoration: underline;
-}
-
-div#links a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-div#links a:hover {
-    color: #c0c0c0;
+a:hover {
+    color: #ff0062;
     text-decoration: underline;
 }
 
@@ -38,17 +27,6 @@ div#header {
 div#textz {
     padding-top: 64px;
     padding-bottom: 64px;
-}
-
-div#textz a {
-    color: #ff0062
-    padding: 16px;
-    text-align: center;
-}
-
-div#textz a:hover {
-    color: #b00000;
-    text-decoration: underline;
 }
 
 div#footer {
