@@ -9,12 +9,13 @@ body {
 }
 
 a {
-    color: #ff0062;
-    text-decoration: underline;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #b00000
+    color: #c0c0c0;
+    text-decoration: underline;
 }
 
 div#header {
@@ -24,8 +25,14 @@ div#header {
 }
 
 div#textz {
+    color: #ff0062
     padding: 16px;
     text-align: center;
+}
+
+div#textz a:hover {
+    color: #b00000;
+    text-decoration: underline;
 }
 
 div#footer {
