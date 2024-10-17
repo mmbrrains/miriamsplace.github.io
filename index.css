@@ -11,9 +11,9 @@ body {
 img {
     width: 150px;
     max-width: 100%;
-    border: 1px solid #ffffff;
-    border-top: 2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
+    border: 1px solid #F7F2F3;
+    border-top: 2px solid #F7F2F3;
+    border-bottom: 2px solid #F7F2F3;
     height: auto;
 }
 
