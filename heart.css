@@ -10,8 +10,7 @@ body {
 
 p {
   text-align: justify;
-  text-align-last: center;
-  margin: 20px;
+  margin: 40px;
 }
 
 div#header {
@@ -21,6 +20,6 @@ div#header {
 }
 
 div#textz {
-    padding-top: 64px;
+    padding-top: 32px;
     padding-bottom: 64px;
 }
