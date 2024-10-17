@@ -1,4 +1,5 @@
 body {
+    animation: fadeIn 3s;
     background-color: #000000;
     color: #ffffff;
     font-family: Menlo, Courier New, monospace;
