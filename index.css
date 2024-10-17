@@ -19,6 +19,7 @@ div#footer a:hover {
 }
 
 div#header {
+    font-size: 13px;
     height: 32px;
     padding-top: 256px;
     text-align: center;
