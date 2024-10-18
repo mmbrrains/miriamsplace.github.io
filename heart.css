@@ -6,6 +6,12 @@ body {
     line-height: 16px;
     margin: 0;
     text-align: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+body.ready {
+    opacity: 1;
 }
 
 p {
