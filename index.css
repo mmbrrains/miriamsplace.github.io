@@ -36,6 +36,7 @@ a:hover {
 div#header {
     height: 32px;
     padding-top: 64px;
+    padding-bottom: 64px;
     text-align: center;
 }
 
