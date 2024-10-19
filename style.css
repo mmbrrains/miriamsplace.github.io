@@ -4,7 +4,7 @@ body {
     font-family: Menlo, Courier New, monospace;
     font-size: 13px;
     line-height: 26px;
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
     opacity: 0;
     transition: opacity 1s ease-in-out;
@@ -41,6 +41,7 @@ img {
     width: 150px;
     max-width: 100%;
     height: auto;
+    padding: 32px;
     border: 1px solid #F7F2F3;
     border-top: 2px solid #F7F2F3;
     border-bottom: 2px solid #F7F2F3;
