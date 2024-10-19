@@ -24,27 +24,19 @@ body.ready {
     box-sizing: border-box;
 }
 
-header {
-    margin: 12px;
+main, header, footer {
+    margin: 16px;
 }
 
 img {
     width: 150px;
     max-width: 100%;
     height: auto;
-    margin: 12px auto;
+    margin: 16px auto;
     border: 1px solid #F7F2F3;
     border-top: 3px solid #F7F2F3;
     border-bottom: 3px solid #F7F2F3;
     display: block;
-}
-
-main {
-    margin: 12px;
-}
-
-footer {
-    margin: 12px;
 }
 
 a {
