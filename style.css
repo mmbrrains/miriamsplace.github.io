@@ -10,6 +10,13 @@ body {
     transition: opacity 1s ease-in-out;
 }
 
+page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
 body.ready {
     opacity: 1;
 }
