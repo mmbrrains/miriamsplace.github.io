@@ -8,6 +8,10 @@ body {
     text-align: center;
     opacity: 0;
     transition: opacity 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 body.ready {
