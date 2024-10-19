@@ -13,37 +13,37 @@ body {
     height: 100vh;
 }
 
+body.ready {
+    opacity: 1;
+}
+
 .container {
     max-width: 800px;
     width: 100%;
     box-sizing: border-box;
 }
 
-body.ready {
-    opacity: 1;
-}
-
 header {
-    padding: 16px;
-}
-
-main {
-    padding: 16px;
-}
-
-footer {
-    padding: 16px;
+    margin: 12px;
 }
 
 img {
     width: 150px;
     max-width: 100%;
     height: auto;
-    margin: 16px auto;
+    margin: 12px auto;
     border: 1px solid #F7F2F3;
-    border-top: 2px solid #F7F2F3;
-    border-bottom: 2px solid #F7F2F3;
+    border-top: 3px solid #F7F2F3;
+    border-bottom: 3px solid #F7F2F3;
     display: block;
+}
+
+main {
+    margin: 12px;
+}
+
+footer {
+    margin: 12px;
 }
 
 a {
