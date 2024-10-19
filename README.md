@@ -1,1 +1,1 @@
-# REPOSITORY FOR MIRIAM'S PLACE
+# repo for miriam's place
