@@ -26,13 +26,15 @@ body.ready {
 }
 
 header {
-    padding-top: 48px;
-    padding-bottom: 32px;
+    padding: 32px;
 }
 
 main {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px;
+}
+
+footer {
+    padding: 32px;
 }
 
 img {
@@ -42,6 +44,7 @@ img {
     border: 1px solid #F7F2F3;
     border-top: 2px solid #F7F2F3;
     border-bottom: 2px solid #F7F2F3;
+    display: block;
 }
 
 a {
@@ -56,5 +59,4 @@ a:hover {
 
 p {
     text-align: justify;
-    margin: 40px;
 }
