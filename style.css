@@ -32,7 +32,7 @@ img {
     width: 150px;
     max-width: 100%;
     height: auto;
-    margin: 16px auto;
+    margin: 16px;
     border: 1px solid #F7F2F3;
     border-top: 3px solid #F7F2F3;
     border-bottom: 3px solid #F7F2F3;
