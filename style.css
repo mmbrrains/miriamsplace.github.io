@@ -18,7 +18,7 @@ body.ready {
 
 .container {
     max-width: 100%;
-    width: auto
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
