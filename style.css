@@ -17,10 +17,11 @@ body.ready {
 }
 
 .container {
-    max-width: 100%; /* Allow container to expand to fit content */
-    width: auto; /* Automatically adjust width */
-    height: auto; /* Automatically adjust height */
+    max-width: 100%;
+    width: auto
+    height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
