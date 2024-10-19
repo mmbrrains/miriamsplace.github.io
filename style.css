@@ -4,7 +4,6 @@ body {
     font-family: Menlo, Courier New, monospace;
     font-size: 13px;
     line-height: 26px;
-    margin: 0 auto;
     text-align: center;
     opacity: 0;
     transition: opacity 1s ease-in-out;
@@ -17,7 +16,7 @@ body {
 .container {
     max-width: 800px;
     width: 100%;
-    padding: 20px;
+    padding: 16px;
     box-sizing: border-box;
 }
 
@@ -26,22 +25,22 @@ body.ready {
 }
 
 header {
-    padding: 32px;
+    padding: 16px;
 }
 
 main {
-    padding: 32px;
+    padding: 16px;
 }
 
 footer {
-    padding: 32px;
+    padding: 16px;
 }
 
 img {
     width: 150px;
     max-width: 100%;
     height: auto;
-    padding: 32px;
+    margin: 16px
     border: 1px solid #F7F2F3;
     border-top: 2px solid #F7F2F3;
     border-bottom: 2px solid #F7F2F3;
