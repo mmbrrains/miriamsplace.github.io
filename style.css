@@ -8,9 +8,7 @@ body {
     opacity: 0;
     transition: opacity 1s ease-in-out;
     display: flex;
-    justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Ensure content is not clipped */
 }
 
 body.ready {
@@ -22,6 +20,9 @@ body.ready {
     width: 100%;
     height: auto;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100%;
 }
 
 main, header, footer {
