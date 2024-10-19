@@ -38,12 +38,12 @@ p {
     margin: 40px;
 }
 
-div#header {
+header {
     padding-top: 48px;
     padding-bottom: 32px;
 }
 
-div#textz {
+main {
     padding-top: 32px;
     padding-bottom: 32px;
 }
