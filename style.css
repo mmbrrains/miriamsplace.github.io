@@ -25,8 +25,36 @@ body.ready {
     max-width: 390px;
 }
 
-main, header, footer {
+header {
     margin: 16px;
+}
+
+main {
+    margin: 16px;
+}
+
+footer {
+    margin: 32px;
+}
+
+img {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    margin: 16px;
+    border: 1px solid #F7F2F3;
+    border-top: 3px solid #F7F2F3;
+    border-bottom: 3px solid #F7F2F3;
+}
+
+img {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    margin: 16px;
+    border: 1px solid #F7F2F3;
+    border-top: 3px solid #F7F2F3;
+    border-bottom: 3px solid #F7F2F3;
 }
 
 img {
