@@ -28,6 +28,10 @@ body.ready {
     max-width: 390px;
 }
 
+.image-container {
+    font-size: 9pt;
+}
+
 header {
     margin: 16px;
 }
