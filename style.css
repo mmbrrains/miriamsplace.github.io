@@ -17,9 +17,6 @@ body {
     transition: opacity 1s ease-in-out;
 }
 
-
-}
-
 body.ready {
     opacity: 1;
 }
