@@ -26,7 +26,6 @@ body.ready {
     width: auto;
     height: auto;
     max-width: 390px;
-    box-sizing: border-box;
 }
 
 header {
@@ -72,6 +71,5 @@ a:hover {
 }
 
 p {
-    text-align: justify;
     margin: 40px;
 }
