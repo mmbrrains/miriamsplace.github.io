@@ -52,6 +52,15 @@ img {
     border-bottom: 3px solid #F7F2F3;
 }
 
+.image-description-container {
+    display: flex;
+    align-items: center;
+}
+
+.image-description-container img {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
