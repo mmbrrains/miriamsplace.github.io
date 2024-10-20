@@ -27,7 +27,6 @@ body.ready {
     height: auto;
     max-width: 390px;
     box-sizing: border-box;
-    padding: 35px;
 }
 
 header {
@@ -65,4 +64,5 @@ a:hover {
 
 p {
     text-align: justify;
+    margin: 40px;
 }
