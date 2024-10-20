@@ -30,6 +30,7 @@ body.ready {
 }
 
 header {
+    margin-top: 32px;
     margin-bottom: 32px;
     font-size: 32px;
     text-align: justify;
