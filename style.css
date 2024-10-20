@@ -35,6 +35,7 @@ body.ready {
 
 header {
     margin: 16px;
+    text-align: left;
 }
 
 main {
