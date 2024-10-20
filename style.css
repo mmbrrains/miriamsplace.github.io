@@ -37,7 +37,7 @@ header {
 
 main {
     margin-top: 32px;
-    margin-bottom: 64px;
+    margin-bottom: 72px;
     letter-spacing: 2px;
 }
 
@@ -50,8 +50,8 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin-top: 16px;
-    margin-bottom: 8px;
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
 
 a {
