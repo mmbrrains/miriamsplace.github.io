@@ -6,9 +6,6 @@ body {
     margin: 0;
     line-height: 26px;
     font-size: 13px;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    text-size-adjust: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +51,7 @@ img {
     height: auto;
     display: block;
     margin-top: 8px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 a {
