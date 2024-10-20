@@ -42,7 +42,7 @@ footer {
 }
 
 img {
-    width: 150px;
+    width: 250px;
     max-width: 100%;
     height: auto;
     margin: 16px;
@@ -50,16 +50,6 @@ img {
     border-top: 3px solid #F7F2F3;
     border-bottom: 3px solid #F7F2F3;
 }
-
-.image-description-container {
-    display: flex;
-    align-items: center;
-}
-
-.image-description-container img {
-    margin-right: 10px; /* Adjust the margin as needed */
-}
-
 a {
     color: #ffffff;
     text-decoration: none;
