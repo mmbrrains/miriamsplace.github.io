@@ -30,7 +30,7 @@ body.ready {
 }
 
 header {
-    margin: 16px;
+    margin-bottom: 32px;
     font-size: 26px;
     text-align: justify;
 }
@@ -42,7 +42,7 @@ main {
 }
 
 footer {
-    margin: 32px;
+    margin-top: 32px;
 }
 
 img {
