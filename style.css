@@ -45,9 +45,8 @@ img {
     width: 320px;
     max-width: 100%;
     height: auto;
-    display: block;
     margin-top: 32px;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 a {
