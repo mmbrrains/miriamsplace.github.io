@@ -33,8 +33,9 @@ header {
 }
 
 main {
-    margin: 16px;
-    letter-spacing: 3px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    letter-spacing: 2px;
 }
 
 footer {
@@ -45,7 +46,8 @@ img {
     width: 250px;
     max-width: 100%;
     height: auto;
-    margin: 16px;
+    margin-top: 24px;
+    margin-bottom: 8px;
     border: 1px solid #F7F2F3;
     border-top: 3px solid #F7F2F3;
     border-bottom: 3px solid #F7F2F3;
