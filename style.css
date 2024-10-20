@@ -31,7 +31,7 @@ body.ready {
 .image-container {
     display: flex;
     flex-direction: column;
-    font-size: 9pt;
+    font-size: 5pt;
 }
 
 header {
