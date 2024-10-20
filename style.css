@@ -63,3 +63,9 @@ p {
     margin: 40px;
     text-align: justify;
 }
+
+body, div, p, a, img {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Standard */
+}
