@@ -25,6 +25,7 @@ body.ready {
     height: auto;
     max-height: 844px;
     max-width: 390px;
+    overflow: hidden;
 
 }
 
