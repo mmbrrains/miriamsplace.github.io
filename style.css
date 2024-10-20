@@ -12,6 +12,12 @@ body {
     align-items: center;
     margin: 0;
     min-height: 100vh;
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in Safari and Chrome */
+    -ms-text-size-adjust: 100%; /* Prevent font scaling in IE and Edge */
+    text-size-adjust: 100%; /* Standard property for other browsers */
+}
+
+
 }
 
 body.ready {
