@@ -26,7 +26,8 @@ body.ready {
     width: auto;
     height: auto;
     max-width: 390px;
-    padding: 20px;
+    box-sizing: border-box;
+    padding: 40px;
 }
 
 header {
