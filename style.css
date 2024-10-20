@@ -1,20 +1,20 @@
 body {
-    background-color: #000000;
-    color: #ffffff;
     font-family: Menlo, Courier New, monospace;
-    font-size: 13px;
-    line-height: 26px;
+    background-color: #000000;
     text-align: center;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
+    color: #ffffff;
+    margin: 0;
+    line-height: 26px;
+    font-size: 13px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
     min-height: 100vh;
-    -webkit-text-size-adjust: 100%; /* Prevent font scaling in Safari and Chrome */
-    -ms-text-size-adjust: 100%; /* Prevent font scaling in IE and Edge */
-    text-size-adjust: 100%; /* Standard property for other browsers */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
 
 
