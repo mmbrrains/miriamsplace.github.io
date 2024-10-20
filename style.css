@@ -44,6 +44,7 @@ main {
 
 footer {
     margin: 32px;
+    text-decoration: none;
 }
 
 img {
@@ -58,6 +59,7 @@ img {
 a {
     color: #ffffff;
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 a:hover {
