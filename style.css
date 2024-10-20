@@ -50,11 +50,6 @@ img {
     margin-bottom: 8px;
 }
 
-.image-description-container img {
-    display: block;
-    margin-bottom: 10px; /* Adjust as needed */
-}
-
 a {
     color: #eeeeee;
     text-decoration: none;
