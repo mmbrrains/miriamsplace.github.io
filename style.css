@@ -46,6 +46,7 @@ img {
     width: 270px;
     max-width: 100%;
     height: auto;
+    display: block;
     margin-top: 8px;
     margin-bottom: 8px;
 }
