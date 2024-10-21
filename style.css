@@ -13,7 +13,8 @@ body {
     margin: 0px;
     line-height: 26px;
     font-size: 13px;
-    overflow: hidden;
+    overflow: hidden; /* Prevent scrolling */
+    overscroll-behavior: auto; /* Allow overscrolling */
 }
 
 body.ready {
@@ -25,7 +26,6 @@ body.ready {
     width: 320px;
     margin: 32px auto;
     color: #ffffff;
-    overflow-y: scroll;
 }
 
 a {
