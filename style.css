@@ -13,8 +13,6 @@ body {
     margin: 0px;
     line-height: 26px;
     font-size: 13px;
-    overflow: hidden; /* Prevent scrolling */
-    overscroll-behavior: auto; /* Allow overscrolling */
 }
 
 body.ready {
