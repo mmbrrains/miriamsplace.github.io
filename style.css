@@ -23,14 +23,12 @@ body.ready {
 .main {
     margin-top: 48px;
     margin-bottom: 48px;
-    text-decoration: underline;
     margin-left: auto;
     margin-right: auto;
 }
 
 .footer {
     font-size: 15px;
-    text-underline-offset: 8px;
 }
 
 img {
@@ -47,6 +45,7 @@ p {
 
 a {
     color: #ffffff
+    text-underline-offset: 6px;
 }
 
 a:hover {
