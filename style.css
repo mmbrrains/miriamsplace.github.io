@@ -8,6 +8,7 @@ body {
     user-select: none;
     color: #ffffff;
     margin: 0px;
+    padding: 0px;
     line-height: 26px;
     font-size: 13px;
     overflow: hidden;
@@ -15,9 +16,6 @@ body {
 
 body.ready {
     opacity: 1;
-    height: 100vh;
-    min-height: 100%;
-    margin: 0px;
 }
 
 #container {
