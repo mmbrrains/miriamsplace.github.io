@@ -59,7 +59,7 @@ a {
 
 a:link {
     text-decoration: none;
-    color: #ffffff
+    color: #ffffff;
     text-underline-offset: 6px;
 }
 
