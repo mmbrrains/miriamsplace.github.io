@@ -58,6 +58,7 @@ a:hover {
     line-height: 10px;
     display: inline;
     font-weight: bold;
+    margin: auto auto;
 }
 
 #footer {
