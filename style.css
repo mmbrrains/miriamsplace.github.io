@@ -24,6 +24,7 @@ body.ready {
     max-width: 320px;
     margin: 32px auto;
     color: #ffffff;
+    overflow: visible;
 }
 
 a {
