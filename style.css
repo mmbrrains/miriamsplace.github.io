@@ -46,6 +46,10 @@ body.ready {
     text-decoration: none;
 }
 
+p {
+    text-align: justify;
+}
+
 img {
     width: 320px;
     height: auto;
