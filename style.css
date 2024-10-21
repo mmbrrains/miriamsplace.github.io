@@ -13,6 +13,8 @@ body {
     margin: 0px;
     line-height: 26px;
     font-size: 13px;
+    overscroll-behavior: contain;
+    scrollbar-width: none;
 }
 
 body.ready {
@@ -24,7 +26,6 @@ body.ready {
     max-width: 320px;
     margin: 32px auto;
     color: #ffffff;
-    overflow: visible;
 }
 
 a {
