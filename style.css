@@ -22,11 +22,6 @@ body.ready {
     color: #ffffff;
 }
 
-#underline a {
-    text-decoration: underline;
-    text-underline-offset: 6px;
-}
-
 #main {
     margin-top: 48px;
     margin-bottom: 48px;
@@ -48,6 +43,8 @@ body.ready {
     color: #ffffff;
     font-size: 16px;
     text-align: center;
+    text-decoration: none;
+
 }
 
 img {
@@ -63,7 +60,8 @@ a {
 }
 
 a:link {
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 6px;
     color: #ffffff;
 }
 
