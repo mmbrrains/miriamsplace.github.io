@@ -9,7 +9,7 @@ body {
     margin: 0px;
     line-height: 26px;
     font-size: 13px;
-    overscroll-behavior: contain;
+    overscroll-behavior: none;
 }
 
 body.ready {
