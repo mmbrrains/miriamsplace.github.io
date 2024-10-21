@@ -19,7 +19,7 @@ body.ready {
 
 #container {
     max-width: 320px;
-    padding-bottom: 32px;
+    padding-top: 32px;
     height: 100vh;
     margin: 32px auto;
     color: #ffffff;
