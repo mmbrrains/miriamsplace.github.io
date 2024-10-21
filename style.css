@@ -58,7 +58,7 @@ a:hover {
     line-height: 10px;
     display: inline;
     font-weight: bold;
-    margin: auto auto;
+    margin: 0px 0px;
     text-align: justify;
     text-align-last: left;
 }
