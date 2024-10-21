@@ -63,6 +63,7 @@ a:hover {
     font-size: 16px;
     text-align: center;
     text-decoration: none;
+    max-height: 26px;
 }
 
 img {
