@@ -24,14 +24,13 @@ body.ready {
     margin-top: 48px;
     margin-bottom: 48px;
     text-decoration: underline;
-    text-underline-offset: 4px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .footer {
     font-size: 15px;
-    text-decoration: none;
+    text-underline-offset: 8px;
 }
 
 img {
