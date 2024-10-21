@@ -59,6 +59,8 @@ a:hover {
     display: inline;
     font-weight: bold;
     margin: auto auto;
+    text-align: justify;
+    text-align-last: left;
 }
 
 #footer {
