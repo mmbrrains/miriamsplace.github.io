@@ -20,8 +20,8 @@ body.ready {
 }
 
 #container {
-    height: 550px;
-    width: 320px;
+    max-height: 600px;
+    max-width: 320px;
     margin: 32px auto;
     color: #ffffff;
 }
