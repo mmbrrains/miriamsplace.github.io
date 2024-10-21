@@ -24,7 +24,7 @@ body.ready {
 #container {
     max-width: 320px;
     padding-top: 32px;
-    height: 100vh;
+    height: auto;
     margin: auto auto;
     color: #ffffff;
 }
