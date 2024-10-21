@@ -1,6 +1,6 @@
 body {
     opacity: 0;
-    height: 100%;
+    height: 100vh;
     min-height: 100%;
     transition: opacity 1s ease-in-out;
     font-family: Menlo, Courier New, monospace;
