@@ -53,6 +53,10 @@ img {
     margin-right: auto;
 }
 
+a {
+    color: #ffffff;
+}
+
 a:link {
     text-decoration: none;
     color: #ffffff;
