@@ -27,7 +27,6 @@ header {
 main {
     margin-top: 48px;
     margin-bottom: 64px;
-    letter-spacing: 2px;
     text-decoration: underline;
     text-underline-offset: 2px;
 }
