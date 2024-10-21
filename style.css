@@ -9,6 +9,7 @@ body {
     margin: 0px;
     line-height: 26px;
     font-size: 13px;
+    overflow: hidden;
 }
 
 body.ready {
@@ -19,7 +20,7 @@ body.ready {
     max-height: 600px;
     max-width: 320px;
     margin: 32px auto;
-    overflow: hidden;
+    color: #ffffff;
 }
 
 #main {
@@ -49,6 +50,7 @@ p {
 }
 
 a {
+    text-decoration: none;
     color: #ffffff
     text-underline-offset: 6px;
 }
