@@ -15,6 +15,9 @@ body {
 
 body.ready {
     opacity: 1;
+    height: 100vh;
+    min-height: 100%;
+    margin: 0px;
 }
 
 #container {
