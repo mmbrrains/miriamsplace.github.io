@@ -20,7 +20,7 @@ body.ready {
     margin: auto auto;
 }
 
-main {
+.main {
     margin-top: 48px;
     margin-bottom: 48px;
     text-decoration: underline;
