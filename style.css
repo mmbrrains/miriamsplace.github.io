@@ -15,14 +15,14 @@ body.ready {
 }
 
 .container {
-    max-height: 844px;
-    max-width: 390px;
+    max-height: 600px;
+    max-width: 320px;
     margin: auto auto;
 }
 
 main {
     margin-top: 48px;
-    margin-bottom: 64px;
+    margin-bottom: 48px;
     text-decoration: underline;
     text-underline-offset: 2px;
     margin-left: auto;
