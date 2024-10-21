@@ -24,7 +24,7 @@ body.ready {
     margin-top: 48px;
     margin-bottom: 48px;
     text-decoration: underline;
-    text-underline-offset: 2px;
+    text-underline-offset: 4px;
     margin-left: auto;
     margin-right: auto;
 }
