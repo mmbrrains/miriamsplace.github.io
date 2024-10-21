@@ -34,7 +34,7 @@ body.ready {
 #caption {
     font-size: 10px;
     line-height: 15px;
-    display: inline-block;
+    display: inline;
     font-weight: bold;
 }
 
