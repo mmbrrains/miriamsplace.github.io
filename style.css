@@ -15,13 +15,13 @@ body.ready {
     opacity: 1;
 }
 
-div#container {
+#container {
     max-height: 600px;
     max-width: 320px;
     margin: 32px auto;
 }
 
-div#main {
+#main {
     margin-top: 48px;
     margin-bottom: 48px;
     margin-left: auto;
@@ -30,7 +30,7 @@ div#main {
     letter-spacing: 3px;
 }
 
-div#footer {
+#footer {
     color: #ffffff
     font-size: 15px;
 }
