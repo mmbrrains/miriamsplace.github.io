@@ -9,7 +9,7 @@ body {
     margin: 0px;
     line-height: 26px;
     font-size: 13px;
-    overscroll-behavior: none;
+    overfill: hidden;
 }
 
 body.ready {
@@ -47,6 +47,9 @@ img {
 
 p {
     margin: 0px;
+}
+a {
+    color:white;
 }
 
 a:link {
