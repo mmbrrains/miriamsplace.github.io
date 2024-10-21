@@ -22,6 +22,20 @@ body.ready {
     color: #ffffff;
 }
 
+a {
+    color: #ffffff;
+}
+
+a:link {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #a00000;
+}
+
 #main {
     margin-top: 48px;
     margin-bottom: 48px;
@@ -46,28 +60,10 @@ body.ready {
     text-decoration: none;
 }
 
-p {
-    text-align: justify;
-}
-
 img {
     width: 320px;
     height: auto;
     margin-top: 32px;
     margin-left: auto;
     margin-right: auto;
-}
-
-a {
-    color: #ffffff;
-}
-
-a:link {
-    text-decoration: underline;
-    text-underline-offset: 6px;
-    color: #ffffff;
-}
-
-a:hover {
-    color: #a00000;
 }
