@@ -8,7 +8,7 @@ body {
     margin: 0px;
     line-height: 26px;
     font-size: 13px;
-    overfill: hidden;
+    overflow: hidden;
 }
 
 body.ready {
