@@ -2,7 +2,6 @@ body {
     opacity: 0;
     transition: opacity 1s ease-in-out;
     font-family: Menlo, Courier New, monospace;
-    font-weight: bold;
     background-color: #000000;
     user-select: none;
     color: #ffffff;
@@ -36,12 +35,12 @@ body.ready {
     font-size: 10px;
     line-height: 15px;
     display: inline-block;
+    font-weight: bold;
 }
 
 #footer {
     color: #ffffff;
     font-size: 16px;
-    font-weight: normal;
 }
 
 img {
@@ -52,9 +51,6 @@ img {
     margin-right: auto;
 }
 
-p {
-    margin: 0px;
-}
 a {
     color:white;
 }
