@@ -2,6 +2,7 @@ body {
     opacity: 0;
     transition: opacity 1s ease-in-out;
     font-family: Menlo, Courier New, monospace;
+    font-weight: bold;
     background-color: #000000;
     user-select: none;
     color: #ffffff;
@@ -17,7 +18,7 @@ body.ready {
 .container {
     max-height: 600px;
     max-width: 320px;
-    margin: 64px auto;
+    margin: 32px auto;
 }
 
 .main {
