@@ -58,7 +58,7 @@ a:hover {
 #caption {
     font-size: 10px;
     line-height: 24px;
-    margin: 16px 0px;
+    margin: 0px 0px;
 }
 
 #footer {
@@ -71,6 +71,5 @@ a:hover {
 img {
     width: 320px;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 16px 0px;
 }
