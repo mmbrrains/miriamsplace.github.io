@@ -55,6 +55,17 @@ a:hover {
     text-align: center;
 }
 
+#header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    color: red;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 #footer {
     color: #ffffff;
     font-size: 16px;
