@@ -60,14 +60,14 @@ a:hover {
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 16px;
+    font-size: 13px;
     color: red;
     white-space: nowrap;
 }
 
 #footer {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 13px;
     text-align: center;
     text-decoration: none;
 }
