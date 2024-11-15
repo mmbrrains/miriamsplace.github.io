@@ -69,6 +69,7 @@ a:hover {
 
 button {
     font-family: 'Fira Code', monospace;
+    padding: 0;
     font-weight: 600;
     color: #ff0000;
     background: none;
