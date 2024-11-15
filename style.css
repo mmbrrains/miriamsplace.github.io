@@ -77,7 +77,7 @@ button {
     text-decoration: none;
 }
 
-textarea, input, label {
+textarea, input {
     font-family: 'Fira Code', monospace;
     border: none;
     text-decoration: none;
