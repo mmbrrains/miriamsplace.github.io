@@ -60,15 +60,12 @@ a:hover {
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 14px;
     text-align: left;
     color: red;
-    white-space: nowrap;
 }
 
 #footer {
     color: #ffffff;
-    font-size: 14px;
     text-align: left;
     text-decoration: none;
 }
@@ -79,7 +76,6 @@ button {
     color: #ff0000;
     background: none;
     border: none;
-    font-size: 14px;
     cursor: pointer;
     text-decoration: none;
 }
