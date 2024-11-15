@@ -81,4 +81,5 @@ textarea, input {
     font-family: 'Fira Code', monospace;
     border: none;
     text-decoration: none;
+    font-size: 14px;
 }
