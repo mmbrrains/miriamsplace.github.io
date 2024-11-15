@@ -5,7 +5,7 @@ window.onload = function() {
 document.getElementById('contactForm').addEventListener('submit', function(event) {
   event.preventDefault();
 
-  document.getElementById('feedback').style.display = 'block';
+  document.getElementById('feedback').style.opacity = '1';
 
   document.getElementById('contactForm').reset();
 });
