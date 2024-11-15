@@ -81,3 +81,11 @@ button {
     cursor: pointer;
     text-decoration: none;
 }
+
+textarea, input {
+    font-family: 'Fira Code', monospace;
+    font-weight: 600;
+    color: #ff0000;
+    border: none;
+    text-decoration: none;
+}
