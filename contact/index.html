@@ -1,1 +1,44 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>contact — miriam's place</title>
+    <link href="../style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../favicon/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="../favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="../favicon/site.webmanifest" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="queer dharma resources">
+    <meta name="keywords" content="liberation, pleasure, buddha, trans, love">
+    <meta name="author" content="Miriam Bradley Rains">
+    <meta property="og:title" content="contact — miriam's place" />
+    <meta property="og:description" content="queer dharma resources" />
+    <meta property="og:url" content="https://miriambradleyrains.net" />
+    <meta property="og:type" content="website" />
+</head>
+<body>
+    <div id="container">
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          
+          <button type="submit">Send</button>
+        </form>
+        <div id="feedback" style="display:none;">Your message was sent. Thank you!</div>
+        <a style="text-decoration: none; color:#ff0000;" href="/">go back</a>
+    </div>
+    <script src="../index.js"></script>
+</body>
+</html>
