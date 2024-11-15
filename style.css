@@ -84,6 +84,7 @@ button {
 }
 
 textarea, input, label {
+    font-family: 'Fira Code', monospace;
     border: none;
     text-decoration: none;
 }
