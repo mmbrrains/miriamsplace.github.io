@@ -83,7 +83,7 @@ button {
     text-decoration: none;
 }
 
-textarea, input {
+textarea, input, label {
     font-family: 'Fira Code', monospace;
     font-weight: 600;
     font-size: 13px;
