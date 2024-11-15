@@ -75,7 +75,7 @@ a:hover {
 button {
     font-family: 'Fira Code', monospace;
     font-weight: 600;
-    color: #ff0000;
+    color: #ffffff;
     background: none;
     border: none;
     font-size: 13px;
@@ -87,7 +87,7 @@ textarea, input, label {
     font-family: 'Fira Code', monospace;
     font-weight: 600;
     font-size: 13px;
-    color: #ff0000;
+    color: #ffffff;
     border: none;
     text-decoration: none;
 }
