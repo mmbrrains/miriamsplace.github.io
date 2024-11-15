@@ -29,7 +29,6 @@ body.ready {
     max-width: 320px;
     height: auto;
     margin: auto auto;
-    color: #ffffff;
 }
 
 a {
@@ -50,7 +49,6 @@ a:hover {
     margin-bottom: 80px;
     margin-left: auto;
     margin-right: auto;
-    color: #ffffff;
     letter-spacing: 1px;
     text-align: left;
 }
@@ -65,7 +63,6 @@ a:hover {
 }
 
 #footer {
-    color: #ffffff;
     text-align: left;
     text-decoration: none;
 }
@@ -76,7 +73,6 @@ button {
     color: #ff0000;
     background: none;
     border: none;
-    cursor: pointer;
     text-decoration: none;
 }
 
