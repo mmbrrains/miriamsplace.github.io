@@ -26,7 +26,7 @@ body.ready {
 }
 
 #container {
-    max-width: 320px;
+    max-width: 220px;
     height: auto;
     margin: auto auto;
 }
