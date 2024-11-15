@@ -27,7 +27,7 @@ body.ready {
 }
 
 #container {
-    max-width: 220px;
+    max-width: 240px;
     height: auto;
     margin: auto auto;
     overflow: visible;
