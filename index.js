@@ -24,8 +24,15 @@ document.addEventListener('DOMContentLoaded', () => {
     textElement.innerHTML = '';
 
     for (let i = 0; i < text.length; i++) {
+        const char = text[i];
+
+        if (char === "'") {
+            textElement.innerHTML += char;
+            continue;
+        }
+
         const span = document.createElement('span');
-        span.textContent = text[i];
+        span.textContent = char;
         span.className = rainbowColors[i % rainbowColors.length];
         textElement.appendChild(span);
     }
