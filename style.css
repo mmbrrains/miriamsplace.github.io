@@ -50,7 +50,8 @@ a:hover {
     margin-bottom: 24px;
     margin-left: auto;
     margin-right: auto;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
+    word-spacing: -4px;
     text-align: left;
 }
 
@@ -67,7 +68,8 @@ a:hover {
 #footer {
     text-align: left;
     text-decoration: none;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
+    word-spacing: -4px;
 }
 
 #footer a {
