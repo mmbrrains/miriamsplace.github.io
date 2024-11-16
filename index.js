@@ -23,17 +23,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const text = textElement.textContent;
     textElement.innerHTML = '';
 
+    let colorIndex = 0;  // Start at the first color
+
     for (let i = 0; i < text.length; i++) {
         const char = text[i];
 
+        // Skip apostrophes (or any other characters you want to exclude)
         if (char === "'") {
-            textElement.innerHTML += char;
+            textElement.innerHTML += char;  // Just append the character
             continue;
         }
 
         const span = document.createElement('span');
         span.textContent = char;
-        span.className = rainbowColors[i % rainbowColors.length];
+        span.className = rainbowColors[colorIndex % rainbowColors.length];
         textElement.appendChild(span);
+
+        // Only increment colorIndex if the character is not an apostrophe
+        colorIndex++;
     }
 });
