@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
     for (let i = 0; i < text.length; i++) {
         const char = text[i];
 
-        // Skip apostrophes (or any other characters you want to exclude)
-        if (char === "'") {
+        // Skip apostrophes and spaces
+        if (char === "'" || char === " ") {
             textElement.innerHTML += char;  // Just append the character
             continue;
         }
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         span.className = rainbowColors[colorIndex % rainbowColors.length];
         textElement.appendChild(span);
 
-        // Only increment colorIndex if the character is not an apostrophe
+        // Only increment colorIndex if the character is not an apostrophe or space
         colorIndex++;
     }
 });
