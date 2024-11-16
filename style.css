@@ -36,6 +36,15 @@ body.ready {
 a {
     color: #ffffff;
 }
+
+#red a:link {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+#red a:hover {
+    color: #a00000;
+}
     
 a:link {
     text-decoration: none;
