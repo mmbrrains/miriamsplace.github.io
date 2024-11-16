@@ -88,3 +88,11 @@ textarea, input {
     text-decoration: none;
     font-size: 14px;
 }
+
+.rainbow-color-1 { color: red; }
+.rainbow-color-2 { color: orange; }
+.rainbow-color-3 { color: yellow; }
+.rainbow-color-4 { color: lime; }
+.rainbow-color-5 { color: blue; }
+.rainbow-color-6 { color: indigo; }
+.rainbow-color-7 { color: violet; }
