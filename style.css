@@ -68,6 +68,7 @@ a:hover {
 #footer {
     text-align: left;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 
 button {
