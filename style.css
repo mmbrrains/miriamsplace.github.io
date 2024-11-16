@@ -33,10 +33,6 @@ body.ready {
     overflow: visible;
 }
 
-a {
-    color: #ffffff;
-}
-
 a:link {
     text-decoration: none;
     color: #ffffff;
@@ -69,6 +65,7 @@ a:hover {
     text-align: left;
     text-decoration: none;
     letter-spacing: 3px;
+    color: #ff0000;
 }
 
 button {
