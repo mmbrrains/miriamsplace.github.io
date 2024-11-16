@@ -89,10 +89,10 @@ textarea, input {
     font-size: 14px;
 }
 
-.rainbow-color-1 { color: red; }
-.rainbow-color-2 { color: orange; }
-.rainbow-color-3 { color: yellow; }
-.rainbow-color-4 { color: lime; }
-.rainbow-color-5 { color: deep sky blue; }
-.rainbow-color-6 { color: purple; }
-.rainbow-color-7 { color: violet; }
+.rainbow-color-1 { color: #FF5555; }
+.rainbow-color-2 { color: #FF5555; }
+.rainbow-color-3 { color: #F1FA8C; }
+.rainbow-color-4 { color: #50FA7B; }
+.rainbow-color-5 { color: #8BE9FD; }
+.rainbow-color-6 { color: #6272A4; }
+.rainbow-color-7 { color: #BD93F9; }
