@@ -61,13 +61,13 @@ a:hover {
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
+    text-align: center;
     color: red;
     white-space: nowrap;
 }
 
 #footer {
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     letter-spacing: 3px;
 }
