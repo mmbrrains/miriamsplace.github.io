@@ -46,6 +46,7 @@ a:link {
 }
 
 footer.a:link {
+    color: red;
     text-decoration: none;
 }
 
