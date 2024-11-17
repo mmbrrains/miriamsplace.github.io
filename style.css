@@ -7,7 +7,6 @@ body {
     background-color: white;
     transition: background-color .2s ease-in-out, opacity .2s ease-in-out;
     font-family: "Fira Code", monospace;
-    letter-spacing: 2px;
     color: white;
     user-select: none;
     display: flex;
