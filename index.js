@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             }
             setTimeout(() => {
                 window.location.href = href;
-            }, 200);
+            }, 500);
         });
     });
 });
