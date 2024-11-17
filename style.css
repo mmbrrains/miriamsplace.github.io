@@ -35,17 +35,18 @@ body.ready {
     margin: auto auto;
 }
 
-a {
-    color: #ffffff;
-}
-    
 a:link {
-    text-decoration: none;
     color: #ffffff;
+    text-decoration: none;
 }
 
 a:hover {
     color: #600000 !important;
+}
+
+
+#header 
+    text-align: center;
 }
 
 #texts {
@@ -54,11 +55,7 @@ a:hover {
     text-align: center;
 }
 
-#header 
-    text-align: center;
-}
-
-div.footer {
+.footer {
     text-align: center;
 }
 
