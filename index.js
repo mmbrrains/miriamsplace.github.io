@@ -39,6 +39,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const span = document.createElement('span');
             span.textContent = newText[i];
             span.className = 'scrolling-rainbow';
+            if (newText[i] === ' ') {
+                span.style.display = 'inline';
+            }
             scrollingText.appendChild(span);
         }
     }, 500);
