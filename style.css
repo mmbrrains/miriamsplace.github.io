@@ -42,15 +42,12 @@ a {
 }
 
 a:link {
+    color: red;
     text-decoration: none;
 }
 
 a:hover {
-    color: #a00000 !important;
-}
-
-a.clicked {
-    color: black !important;
+    color: #a00000;
 }
 
 .header {
