@@ -44,7 +44,6 @@ a:hover {
     color: #600000 !important;
 }
 
-
 #header 
     text-align: center;
 }
@@ -52,10 +51,6 @@ a:hover {
 #texts {
     margin: 16px auto;
     letter-spacing: 5px;
-    text-align: center;
-}
-
-.footer {
     text-align: center;
 }
 
