@@ -7,6 +7,7 @@ body {
     background-color: white;
     transition: background-color .5s ease-in-out, opacity .5s ease-in-out;
     font-family: "Fira Code", monospace;
+    letter-spacing: 2px;
     color: #ffffff;
     min-height: 100%;
     user-select: none;
@@ -54,20 +55,13 @@ a:hover {
 }
 
 #header {
-    margin-top: 12px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px;
     text-align: center;
-    color: red;
-    white-space: nowrap;
 }
 
 #footer {
     margin: 0px;
     text-align: center;
-    text-decoration: none;
-    letter-spacing: 2px;
 }
 
 .rainbow-color-1 { color: #DC143C; }
