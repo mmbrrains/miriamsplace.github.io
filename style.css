@@ -88,11 +88,17 @@ a.clicked {
     }
 }
 
-.scrolling-text {
-    white-space: nowrap;
-    overflow: hidden;
-    color: #C71585;
-    max-width: 240px;
+.scrolling-rainbow {
+    display: inline-block;
+    animation: scrolling-rainbow 4s linear infinite;
+}
+
+@keyframes scrolling-rainbow {
+    0% { color: #1E90FF; }
+    25% { color: #6A5ACD; }
+    50% { color: #9400D3; }
+    75% { color: #C71585; }
+    100% { color: #1E90FF; }
 }
 
 .rainbow {
