@@ -94,6 +94,7 @@ a.clicked {
     display: flex;
     align-items: center;
     color: #C71585;
+    max-width: 240px;
 }
 
 .rainbow {
