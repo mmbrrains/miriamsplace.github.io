@@ -1,6 +1,6 @@
-//window.onload = function() {
-//    document.body.classList.add('ready');
-//};
+window.onload = function() {
+    document.body.classList.add('loaded');
+};
 
 window.addEventListener('load', () => {
         document.body.classList.add('loaded');
