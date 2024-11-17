@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             scrollingText.appendChild(span);
         }
-    }, 750);
+    }, 500);
 });
 
 document.addEventListener('DOMContentLoaded', () => {
