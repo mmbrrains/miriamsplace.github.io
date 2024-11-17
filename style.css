@@ -56,7 +56,7 @@ a:hover {
 }
 
 a.clicked {
-    color: #400000;
+    color: #400000 !important;
 }
 
 .header {
