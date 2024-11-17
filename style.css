@@ -5,7 +5,7 @@ html {
 body {
     height: 100vh;
     background-color: white;
-    transition: background-color .15s ease-in-out, opacity .15s ease-in-out;
+    transition: background-color .2s ease-in-out, opacity .2s ease-in-out;
     font-family: "Fira Code", monospace;
     letter-spacing: 2px;
     color: white;
@@ -41,7 +41,7 @@ p {
 
 a {
     color: #ffffff;
-    transition: color 0.15s ease;
+    transition: color 0.2s ease;
 }
 
 a:link {
