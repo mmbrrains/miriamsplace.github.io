@@ -64,7 +64,8 @@ a.clicked {
 }
 
 .texts {
-    letter-spacing: 2px;
+    letter-spacing: 4px;
+    line-height: 25px;
 }
 
 #arrow {
