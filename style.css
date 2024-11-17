@@ -58,7 +58,7 @@ a:hover {
 }
 
 #texts {
-    margin: 16px 0px;
+    margin: 16px auto;
     letter-spacing: 5px;
     text-align: center;
 }
