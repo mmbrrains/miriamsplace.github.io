@@ -90,7 +90,7 @@ a.clicked {
 
 .scrolling-rainbow {
     display: inline-block;
-    animation: scrolling-rainbow 4s linear infinite;
+    animation: scrolling-rainbow .3s linear infinite;
 }
 
 @keyframes scrolling-rainbow {
