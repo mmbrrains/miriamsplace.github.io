@@ -49,8 +49,7 @@ a:hover {
 }
 
 #texts {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin: 16px auto;
     letter-spacing: 5px;
     text-align: center;
 }
