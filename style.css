@@ -47,12 +47,13 @@ a:hover {
     color: #600000 !important;
 }
 
-#header 
+#header
+    margin: 0px;
     text-align: center;
 }
 
 #texts {
-    margin: 16px auto;
+    margin: 16px 0px;
     letter-spacing: 5px;
     text-align: center;
 }
