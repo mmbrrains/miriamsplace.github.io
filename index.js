@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             }
             setTimeout(() => {
                 window.location.href = href;
-            }, 500);
+            }, 200);
         });
     });
 });
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(() => {
         index = (index + 1) % textContent.length;
         scrollingText.textContent = textContent.slice(index) + textContent.slice(0, index);
-    }, 200);
+    }, 500);
 });
 
 document.addEventListener('DOMContentLoaded', () => {
