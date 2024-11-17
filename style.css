@@ -35,9 +35,8 @@ body.ready {
     margin: auto auto;
 }
 
-a:link {
+a {
     color: #ffffff;
-    text-decoration: none;
 }
 
 a:hover {
