@@ -13,7 +13,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
             event.preventDefault();
             const href = this.href;
             this.classList.add('clicked');
-            this.querySelector('.rainbow').classList.add('clicked');
+            if (this.querySelector('.rainbow')) {
+                this.querySelector('.rainbow').classList.add('clicked');
+            }
+            if (this.classList.contains('fade-heart-1') || this.classList.contains('fade-heart-2') || this.classList.contains('fade-heart-3')) {
+                this.classList.add('clicked');
+            }
             setTimeout(() => {
                 window.location.href = href;
             }, 200);
