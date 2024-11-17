@@ -50,7 +50,7 @@ a:hover {
 }
 
 a.clicked {
-    color: black;
+    color: black !important;
 }
 
 .header {
