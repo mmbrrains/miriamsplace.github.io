@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    const scrollingText = document.querySelector('p.scrolling-text');
+    const scrollingText = document.querySelector('a.scrolling-text');
     const textContent = scrollingText.textContent;
 
     let index = 0;
