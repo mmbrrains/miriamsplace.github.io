@@ -1,7 +1,6 @@
 html {
     background-color: #000000;
     height: 100%;
-    overflow: hidden;
 }
 
 body {
@@ -19,8 +18,6 @@ body {
     padding: 0px;
     line-height: 30px;
     font-size: 16px;
-    font-weight: 600;
-    overflow: hidden;
 }
 
 body.loaded {
@@ -51,7 +48,7 @@ a:hover {
     color: #600000 !important;
 }
 
-#main {
+#texts {
     margin-top: 128px;
     margin-bottom: 128px;
     margin-left: auto;
