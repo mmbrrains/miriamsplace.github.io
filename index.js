@@ -16,7 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'rainbow-color-4', 
         'rainbow-color-5', 
         'rainbow-color-6', 
-        'rainbow-color-7'
+        'rainbow-color-7',
+        'rainbow-color-8'
     ];
 
     const textElement = document.getElementById('rainbow-text');
