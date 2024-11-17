@@ -79,9 +79,28 @@ a.clicked {
     text-align: left;
 }
 
+.fade-heart-1 {
+    animation: fade 2s forwards;
+}
+
+.fade-heart-2 {
+    animation: fade 2s forwards 0.2s;
+}
+
+.fade-heart-3 {
+    animation: fade 2s forwards 0.4s;
+}
+
+@keyframes fade {
+    to {
+        color: #400000;
+    }
+}
+
 .rainbow {
     animation: rainbow 2s infinite linear;
 }
+
 a.clicked .rainbow {
     animation: none;
     color: #400000 !important;
