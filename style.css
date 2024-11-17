@@ -35,6 +35,10 @@ body.ready {
     margin: auto auto;
 }
 
+p {
+    color: red;
+}
+
 a {
     color: #ffffff;
 }
