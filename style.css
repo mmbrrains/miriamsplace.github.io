@@ -63,6 +63,10 @@ a.clicked {
     margin: 0px;
 }
 
+.texts {
+    letter-spacing: 2px;
+}
+
 #arrow {
     letter-spacing: 0px;
 }
