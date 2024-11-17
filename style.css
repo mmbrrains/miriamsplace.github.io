@@ -83,6 +83,14 @@ a.clicked {
     animation: rainbow 2s infinite linear;
 }
 
+a span.rainbow {
+    animation: none;
+}
+
+a.clicked span.rainbow {
+    color: #400000 !important;
+}
+
 .rainbow-color-1 { color: #DC143C; }
 .rainbow-color-2 { color: #FF8C00; }
 .rainbow-color-3 { color: #FFD700; }
