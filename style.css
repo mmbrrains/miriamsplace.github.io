@@ -74,6 +74,7 @@ a:hover {
 }
 
 .scrolling-rainbow {
+    overflow: hidden;
     display: inline-block;
     animation: scrolling-rainbow 1s linear infinite;
 }
