@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             if (this.querySelector('.rainbow')) {
                 this.querySelector('.rainbow').classList.add('clicked');
             }
-            if (this.classList.contains('fade-heart-1') || this.classList.contains('fade-heart-2') || this.classList.contains('fade-heart-3')) {
+            if (this.classList.contains('fade-heart')) {
                 this.classList.add('clicked');
             }
             setTimeout(() => {
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-    const scrollingText = document.querySelector('.scrolling-text span');
+    const scrollingText = document.querySelector('.scrolling-text p');
     const textContent = scrollingText.textContent;
 
     let index = 0;
