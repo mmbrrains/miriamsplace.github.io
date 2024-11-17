@@ -7,17 +7,18 @@ window.addEventListener('load', () => {
 });
 
 document.addEventListener('DOMContentLoaded', (event) => {
-            const links = document.querySelectorAll('a');
-            links.forEach(link => {
-                link.addEventListener('click', function(event) {
-                    event.preventDefault();
-                    const href = this.href;
-                    this.classList.add('clicked');
-                    setTimeout(() => {
-                        window.location.href = href;
-                    }, 200);
-                });
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const href = this.href;
+            this.classList.add('clicked');
+            this.querySelectorAll('span.rainbow').forEach(span => span.classList.add('clicked'));
+            setTimeout(() => {
+                window.location.href = href;
+            }, 200);
         });
+    });
 });
 
 document.addEventListener('DOMContentLoaded', () => {
