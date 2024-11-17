@@ -38,6 +38,7 @@ body.ready {
 
 a {
     color: #ffffff;
+    transition: color 0.3s ease;
 }
 
 a:link {
