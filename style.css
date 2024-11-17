@@ -46,7 +46,7 @@ a:link {
 }
 
 a:hover {
-    color: #a00000;
+    color: #a00000 !important;
 }
 
 a.clicked {
