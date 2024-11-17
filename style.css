@@ -4,16 +4,16 @@ html {
 }
 
 body {
+    background-color: white;
+    transition: background-color .5s ease-in-out, opacity .5s ease-in-out;
+    font-family: "Fira Code", monospace;
+    color: #ffffff;
+    min-height: 100%;
+    user-select: none;
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0;
-    background-color: white;
-    min-height: 100%;
-    transition: background-color .5s ease-in-out, opacity .5s ease-in-out;
-    font-family: "Fira Code", monospace;
-    user-select: none;
-    color: #ffffff;
     margin: 0px;
     padding: 0px;
     line-height: 30px;
@@ -21,8 +21,8 @@ body {
 }
 
 body.loaded {
-  background-color: transparent; /* Transition to transparent background */
-  opacity: 1; /* Fade in the content */
+    background-color: transparent;
+    opacity: 1;
 }
 
 body.ready {
@@ -32,7 +32,6 @@ body.ready {
 #container {
     height: auto;
     margin: auto auto;
-    overflow: visible;
 }
 
 a {
@@ -71,10 +70,6 @@ a:hover {
     text-align: center;
     text-decoration: none;
     letter-spacing: 2px;
-}
-
-#footer a {
-    color: #ff0000;
 }
 
 button {
