@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     this.classList.add('clicked');
                     setTimeout(() => {
                         window.location.href = href;
-                    }, 500); // Adjust this timeout to match the transition duration
+                    }, 500);
                 });
         });
 });
