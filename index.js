@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(() => {
         index = (index + 1) % textContent.length;
         scrollingText.textContent = textContent.slice(index) + textContent.slice(0, index);
-    }, 200); // Adjust the interval as needed for smoothness
+    }, 200);
 });
 
 document.addEventListener('DOMContentLoaded', () => {
