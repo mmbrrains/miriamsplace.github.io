@@ -36,6 +36,10 @@ body.ready {
     text-align: center;
 }
 
+p {
+    margin: 0px;
+}
+
 a {
     color: #ffffff;
     transition: color 0.3s ease;
