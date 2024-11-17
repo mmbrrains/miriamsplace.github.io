@@ -62,6 +62,14 @@ a:hover {
     text-align: center;
 }
 
+#about {
+    margin: 0;
+    color: white;
+    letter-spacing: 2px;
+    max-width: 200px;
+    text-align: left;
+}
+
 .rainbow-text {
     letter-spacing: 3px;
 }
