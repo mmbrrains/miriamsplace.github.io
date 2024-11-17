@@ -11,7 +11,7 @@ body {
     opacity: 0;
     background-color: white;
     min-height: 100%;
-    transition: background-color 1s ease-in-out, opacity 1s ease-in-out;
+    transition: background-color .5s ease-in-out, opacity .5s ease-in-out;
     font-family: "Fira Code", monospace;
     user-select: none;
     color: #ffffff;
