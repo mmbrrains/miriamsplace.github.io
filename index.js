@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const char = text[i];
 
         // Skip apostrophes and spaces
-        if (char === "'" || char === " ") {
+        if (char === " ") {
             textElement.innerHTML += char;  // Just append the character
             continue;
         }
