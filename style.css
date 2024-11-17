@@ -48,10 +48,7 @@ a:hover {
 }
 
 #texts {
-    margin-top: 128px;
-    margin-bottom: 128px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px;
     letter-spacing: 5px;
     text-align: center;
 }
@@ -67,6 +64,7 @@ a:hover {
 }
 
 #footer {
+    margin: 0px;
     text-align: center;
     text-decoration: none;
     letter-spacing: 2px;
