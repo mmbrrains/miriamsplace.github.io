@@ -46,8 +46,8 @@ a:hover {
 }
 
 #main {
-    margin-top: 124px;
-    margin-bottom: 132px;
+    margin-top: 128px;
+    margin-bottom: 128px;
     margin-left: auto;
     margin-right: auto;
     letter-spacing: 5px;
@@ -55,7 +55,7 @@ a:hover {
 }
 
 #header {
-    margin-top: 0px;
+    margin-top: 8px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
