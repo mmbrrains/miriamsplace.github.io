@@ -77,10 +77,6 @@ a.clicked {
     text-align: left;
 }
 
-.rainbow-text {
-    letter-spacing: 3px;
-}
-
 .rainbow-color-1 { color: #DC143C; }
 .rainbow-color-2 { color: #FF8C00; }
 .rainbow-color-3 { color: #FFD700; }
