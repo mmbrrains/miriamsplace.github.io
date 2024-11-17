@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             event.preventDefault();
             const href = this.href;
             this.classList.add('clicked');
-            this.querySelectorAll('span.rainbow').forEach(span => span.classList.add('clicked'));
+            this.querySelector('.rainbow').classList.add('clicked');
             setTimeout(() => {
                 window.location.href = href;
             }, 200);
