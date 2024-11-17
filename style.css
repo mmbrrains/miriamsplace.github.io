@@ -33,6 +33,7 @@ body.ready {
 #container {
     height: auto;
     margin: auto auto;
+    text-align: center;
 }
 
 a {
@@ -47,9 +48,8 @@ a:hover {
     color: #600000 !important;
 }
 
-#header {
+.header {
     margin: 0px;
-    text-align: center;
 }
 
 #arrow {
@@ -57,10 +57,9 @@ a:hover {
     letter-spacing: 0px;
 }
 
-#texts {
+.texts {
     margin: 16px auto;
     letter-spacing: 5px;
-    text-align: center;
 }
 
 #about {
