@@ -93,6 +93,7 @@ a.clicked {
     overflow: hidden;
     display: flex;
     align-items: center;
+    color: #C71585;
 }
 
 .rainbow {
