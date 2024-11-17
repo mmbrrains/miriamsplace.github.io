@@ -78,22 +78,31 @@ a.clicked {
     text-align: left;
 }
 
-.fade-heart-1.clicked {
-    animation: fade 2s forwards;
-}
-
-.fade-heart-2.clicked {
-    animation: fade 2s forwards 0.2s;
-}
-
-.fade-heart-3.clicked {
-    animation: fade 2s forwards 0.4s;
+.fade-heart.clicked {
+    animation: fade 1s forwards;
 }
 
 @keyframes fade {
     to {
         color: #400000;
     }
+}
+
+.scrolling-text {
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.scrolling-text span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scrolling 10s linear infinite;
+}
+
+@keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
 }
 
 .rainbow {
