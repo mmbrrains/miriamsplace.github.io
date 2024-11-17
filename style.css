@@ -78,7 +78,7 @@ a.clicked {
 }
 
 .rainbow {
-    animation: rainbow 1s infinite linear;
+    animation: rainbow 2s infinite linear;
 }
 
 .rainbow-color-1 { color: #DC143C; }
