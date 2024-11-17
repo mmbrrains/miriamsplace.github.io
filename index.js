@@ -27,6 +27,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
+    const scrollingText = document.querySelector('.scrolling-text span');
+    const textContent = scrollingText.textContent;
+
+    let index = 0;
+    setInterval(() => {
+        index = (index + 1) % textContent.length;
+        scrollingText.textContent = textContent.slice(index) + textContent.slice(0, index);
+    }, 200); // Adjust the interval as needed for smoothness
+});
+
+document.addEventListener('DOMContentLoaded', () => {
     const rainbowColors = [
         'rainbow-color-1', 
         'rainbow-color-2', 
