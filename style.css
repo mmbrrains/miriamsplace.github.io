@@ -29,7 +29,6 @@ body.ready {
 }
 
 #container {
-    height: 600px;
     width: 360px;
     align-items: center;
     text-align: center;
