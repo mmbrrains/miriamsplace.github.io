@@ -6,6 +6,20 @@ window.addEventListener('load', () => {
     document.body.classList.add('loaded');
   });
 
+document.addEventListener('DOMContentLoaded', (event) => {
+            const links = document.querySelectorAll('a');
+            links.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    const href = this.href;
+                    this.classList.add('clicked');
+                    setTimeout(() => {
+                        window.location.href = href;
+                    }, 500); // Adjust this timeout to match the transition duration
+                });
+            });
+    });
+
 document.addEventListener('DOMContentLoaded', () => {
     const rainbowColors = [
         'rainbow-color-1', 
