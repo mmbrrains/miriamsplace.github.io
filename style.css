@@ -49,6 +49,10 @@ a:hover {
     color: #a00000;
 }
 
+a.clicked {
+    color: black;
+}
+
 .header {
     margin: 0px;
 }
