@@ -79,15 +79,15 @@ a.clicked {
     text-align: left;
 }
 
-.fade-heart-1 {
+.fade-heart-1.clicked {
     animation: fade 2s forwards;
 }
 
-.fade-heart-2 {
+.fade-heart-2.clicked {
     animation: fade 2s forwards 0.2s;
 }
 
-.fade-heart-3 {
+.fade-heart-3.clicked {
     animation: fade 2s forwards 0.4s;
 }
 
