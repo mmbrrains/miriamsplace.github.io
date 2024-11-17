@@ -1,10 +1,10 @@
 window.onload = function() {
         document.body.classList.add('loaded');
-    };
+};
 
 window.addEventListener('load', () => {
         document.body.classList.add('loaded');
-    });
+});
 
 document.addEventListener('DOMContentLoaded', (event) => {
             const links = document.querySelectorAll('a');
@@ -15,10 +15,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     this.classList.add('clicked');
                     setTimeout(() => {
                         window.location.href = href;
-                    }, 500); // Adjust this timeout to match the transition duration
+                    }, 500);
                 });
-            });
-    });
+        });
+});
 
 document.addEventListener('DOMContentLoaded', () => {
     const rainbowColors = [
@@ -38,14 +38,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const text = textElement.textContent;
         textElement.innerHTML = '';
 
-        let colorIndex = 0;  // Start at the first color
+        let colorIndex = 0;
 
         for (let i = 0; i < text.length; i++) {
             const char = text[i];
 
-            // Skip spaces
             if (char === " ") {
-                textElement.innerHTML += char;  // Just append the character
+                textElement.innerHTML += char;
                 continue;
             }
 
@@ -54,7 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
             span.className = rainbowColors[colorIndex % rainbowColors.length];
             textElement.appendChild(span);
 
-            // Only increment colorIndex if the character is not a space
             colorIndex++;
         }
     });
