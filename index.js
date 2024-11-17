@@ -33,7 +33,14 @@ document.addEventListener('DOMContentLoaded', () => {
     let index = 0;
     setInterval(() => {
         index = (index + 1) % textContent.length;
-        scrollingText.textContent = textContent.slice(index) + textContent.slice(0, index);
+        scrollingText.innerHTML = '';
+        const newText = textContent.slice(index) + textContent.slice(0, index);
+        for (let i = 0; i < newText.length; i++) {
+            const span = document.createElement('span');
+            span.textContent = newText[i];
+            span.className = 'scrolling-rainbow';
+            scrollingText.appendChild(span);
+        }
     }, 500);
 });
 
