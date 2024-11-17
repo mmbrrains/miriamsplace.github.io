@@ -82,12 +82,8 @@ a.clicked {
 .rainbow {
     animation: rainbow 2s infinite linear;
 }
-
-a span.rainbow {
+a.clicked .rainbow {
     animation: none;
-}
-
-a.clicked span.rainbow {
     color: #400000 !important;
 }
 
