@@ -14,27 +14,30 @@ document.addEventListener('DOMContentLoaded', () => {
         'rainbow-color-8'
     ];
 
-    const textElement = document.getElementById('rainbow-text');
-    const text = textElement.textContent;
-    textElement.innerHTML = '';
+    const textElements = document.querySelectorAll('.rainbow-text');
+    
+    textElements.forEach(textElement => {
+        const text = textElement.textContent;
+        textElement.innerHTML = '';
 
-    let colorIndex = 0;  // Start at the first color
+        let colorIndex = 0;  // Start at the first color
 
-    for (let i = 0; i < text.length; i++) {
-        const char = text[i];
+        for (let i = 0; i < text.length; i++) {
+            const char = text[i];
 
-        // Skip apostrophes and spaces
-        if (char === " ") {
-            textElement.innerHTML += char;  // Just append the character
-            continue;
+            // Skip spaces
+            if (char === " ") {
+                textElement.innerHTML += char;  // Just append the character
+                continue;
+            }
+
+            const span = document.createElement('span');
+            span.textContent = char;
+            span.className = rainbowColors[colorIndex % rainbowColors.length];
+            textElement.appendChild(span);
+
+            // Only increment colorIndex if the character is not a space
+            colorIndex++;
         }
-
-        const span = document.createElement('span');
-        span.textContent = char;
-        span.className = rainbowColors[colorIndex % rainbowColors.length];
-        textElement.appendChild(span);
-
-        // Only increment colorIndex if the character is not an apostrophe or space
-        colorIndex++;
-    }
+    });
 });
