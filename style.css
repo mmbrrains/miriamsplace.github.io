@@ -52,11 +52,7 @@ a.red {
 }
 
 a:hover {
-    color: #a00000;
-}
-
-a.clicked {
-    color: #400000 !important;
+    color: #400000;
 }
 
 .header {
@@ -75,16 +71,6 @@ a.clicked {
 #about {
     max-width: 200px;
     text-align: left;
-}
-
-.fade-heart.clicked {
-    animation: fade 1s forwards;
-}
-
-@keyframes fade {
-    to {
-        color: #400000;
-    }
 }
 
 .scrolling-rainbow {
