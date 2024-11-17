@@ -35,10 +35,6 @@ body.ready {
     margin: auto auto;
 }
 
-p {
-    color: red;
-}
-
 a {
     color: #ffffff;
 }
@@ -54,6 +50,11 @@ a:hover {
 #header {
     margin: 0px;
     text-align: center;
+}
+
+#arrow {
+    color: red;
+    letter-spacing: 0px;
 }
 
 #texts {
