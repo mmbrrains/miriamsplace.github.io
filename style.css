@@ -37,10 +37,6 @@ body.ready {
     text-align: center;
 }
 
-p {
-    margin: auto auto;
-}
-
 a {
     color: #ffffff;
     transition: color 0.5s ease;
@@ -68,8 +64,9 @@ a:hover {
 }
 
 #about {
-    max-width: 200px;
+    max-width: 230px;
     text-align: left;
+    margin: auto auto;
 }
 
 .rainbow {
