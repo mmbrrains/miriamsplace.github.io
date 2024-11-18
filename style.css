@@ -18,8 +18,8 @@ body {
     padding: 0px;
     font-size: 14px;
     font-weight:400px;
-    letter-spacing: 2px;
-    line-height: 23px;
+    letter-spacing: 1px;
+    line-height: 22px;
 }
 
 body.loaded {
