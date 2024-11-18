@@ -19,6 +19,7 @@ body {
     font-size: 14px;
     font-weight:400px;
     letter-spacing: 2px;
+    line-height: 23px;
 }
 
 body.loaded {
