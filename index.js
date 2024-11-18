@@ -6,6 +6,16 @@ window.addEventListener('load', () => {
         document.body.classList.add('loaded');
 });
 
+document.querySelectorAll('a').forEach(function(link) {
+    link.addEventListener('click', function(event) {
+        event.preventDefault();
+        const href = this.href;
+        setTimeout(function() {
+            window.location.href = href;
+        }, 500);
+    });
+});
+
 document.addEventListener('DOMContentLoaded', () => {
     const rainbowColors = [
         'rainbow-color-1', 
