@@ -65,6 +65,7 @@ a:hover {
 
 #about {
     max-width: 250px;
+    color: #400000;
     text-align: justify;
     margin: auto auto;
 }
