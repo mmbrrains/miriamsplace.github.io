@@ -67,6 +67,7 @@ a:hover {
 #about {
     max-width: 200px;
     text-align: left;
+    letter-spacing: 2px;
 }
 
 .rainbow {
