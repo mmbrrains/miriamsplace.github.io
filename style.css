@@ -68,9 +68,9 @@ a:hover {
 }
 
 #about {
-    max-width: 250px;
+    max-width: 220px;
     color: white;
-    text-align: justify;
+    text-align: left;
     margin: auto auto;
 }
 
