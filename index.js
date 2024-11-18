@@ -13,38 +13,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
             event.preventDefault();
             const href = this.href;
             this.classList.add('clicked');
-            if (this.querySelector('.rainbow')) {
-                this.querySelector('.rainbow').classList.add('clicked');
-            }
-            if (this.classList.contains('fade-heart')) {
-                this.classList.add('clicked');
-            }
             setTimeout(() => {
                 window.location.href = href;
             }, 200);
         });
     });
-});
-
-document.addEventListener('DOMContentLoaded', () => {
-    const scrollingText = document.querySelector('p.scrolling-text');
-    const textContent = scrollingText.textContent;
-
-    let index = 0;
-    setInterval(() => {
-        index = (index + 1) % textContent.length;
-        scrollingText.innerHTML = '';
-        const newText = textContent.slice(index) + textContent.slice(0, index);
-        for (let i = 0; i < newText.length; i++) {
-            const span = document.createElement('span');
-            span.textContent = newText[i];
-            span.className = 'scrolling-rainbow';
-            if (newText[i] === ' ') {
-                span.style.display = 'inline';
-            }
-            scrollingText.appendChild(span);
-        }
-    }, 500);
 });
 
 document.addEventListener('DOMContentLoaded', () => {
