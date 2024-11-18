@@ -42,7 +42,7 @@ p {
 
 a {
     color: #ffffff;
-    transition: color 0.3s ease;
+    transition: color 0.5s ease;
 }
 
 a:link {
@@ -54,7 +54,7 @@ a.red {
 }
 
 a:hover {
-    color: #a00000;
+    color: #100000;
 }
 
 .header {
