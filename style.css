@@ -63,6 +63,10 @@ a:hover {
     line-height: 25px;
 }
 
+#footer {
+    letter-spacing: 4px;
+}
+
 #about {
     max-width: 250px;
     color: white;
