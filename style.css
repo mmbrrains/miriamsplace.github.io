@@ -73,26 +73,8 @@ a:hover {
     text-align: left;
 }
 
-.scrolling-rainbow {
-    display: inline-block;
-    animation: scrolling-rainbow 1s linear infinite;
-}
-
-@keyframes scrolling-rainbow {
-    0% { color: #1E90FF; }
-    25% { color: #6A5ACD; }
-    50% { color: #9400D3; }
-    75% { color: #C71585; }
-    100% { color: #1E90FF; }
-}
-
 .rainbow {
     animation: rainbow 2s infinite linear;
-}
-
-a.clicked .rainbow {
-    animation: none;
-    color: #400000 !important;
 }
 
 .rainbow-color-1 { color: #DC143C; }
