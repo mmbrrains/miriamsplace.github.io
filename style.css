@@ -38,7 +38,7 @@ body.ready {
 }
 
 a {
-    color: #600000;
+    color: #a00000;
     transition: color 0.5s ease;
 }
 
@@ -47,7 +47,7 @@ a:link {
 }
 
 a.red {
-    color: #a00000;
+    color: red;
 }
 
 a:hover {
@@ -65,7 +65,7 @@ a:hover {
 
 #about {
     max-width: 250px;
-    color: #600000;
+    color: crimson;
     text-align: justify;
     margin: auto auto;
 }
