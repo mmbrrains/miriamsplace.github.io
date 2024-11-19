@@ -81,7 +81,6 @@ a:hover {
 }
 
 #footer {
-    user-select: none;
     margin-top: 24px; /* Adjusted margin to control spacing */
     letter-spacing: 2px;
 }
