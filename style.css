@@ -22,15 +22,6 @@ body {
     text-align: center;
 }
 
-#about {
-    user-select: none;
-    width: 180px;
-    margin: 32px 32px;
-    letter-spacing: 2px;
-    line-height: 28px;
-    text-align: left;
-}
-
 #header {
     user-select: none;
     margin-left: 32px;
@@ -39,7 +30,7 @@ body {
     letter-spacing: 2px;
 }
 
-.texts {
+#texts {
     user-select: none;
     margin-left: 32px;
     margin-right: 32px;
@@ -60,6 +51,15 @@ body {
     margin-right: 32px;
     margin-top: 24px;
     letter-spacing: 2px;
+}
+
+#about {
+    user-select: none;
+    width: 180px;
+    margin: 32px 32px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    text-align: left;
 }
 
 a {
