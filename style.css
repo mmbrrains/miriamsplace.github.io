@@ -51,35 +51,35 @@ a:hover {
 #header {
     user-select: none;
     position: absolute;
-    top: 25%; /* Position 25% from the top */
+    top: 25%;
     width: 100%;
     letter-spacing: 2px;
     text-align: center;
-    transform: translateY(-50%); /* Adjust for centering */
+    transform: translateY(-50%);
 }
 
 .texts {
     user-select: none;
     position: absolute;
-    top: 50%; /* Position at the center */
+    top: 50%;
     width: 100%;
     letter-spacing: 0px;
     line-height: 25px;
     text-align: center;
-    transform: translateY(-50%); /* Adjust for centering */
+    transform: translateY(-50%);
 }
 
 .footer-links {
     user-select: none;
     position: absolute;
-    bottom: 10%; /* Position 10% from the bottom */
+    bottom: 30%;
     width: 100%;
     text-align: center;
 }
 
 #footer {
     position: absolute;
-    bottom: 5%; /* Position 5% from the bottom */
+    bottom: 25%;
     width: 100%;
     letter-spacing: 2px;
     text-align: center;
