@@ -105,11 +105,11 @@ a:hover {
 }
 
 .texts a, .footer-links a {
-    animation: fadeInFromBlue 1s ease-out forwards; /* Adjust timing as needed */
+    animation: fadeInFromBlue .4s ease-out forwards; /* Adjust timing as needed */
 }
 
 body.loaded .texts a, body.loaded .footer-links a {
-    animation: fadeInFromBlue 1s ease-out forwards; /* Adjust timing as needed */
+    animation: fadeInFromBlue .4s ease-out forwards; /* Adjust timing as needed */
 }
 
 .rainbow {
