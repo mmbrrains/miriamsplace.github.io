@@ -9,18 +9,16 @@ body {
     transition: background-color .2s ease-in-out, opacity .2s ease-in-out;
     font-family: "Courier New", monospace;
     color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    opacity: 0;
-    margin: 0px 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 2px;
     line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
 }
 
 body.loaded {
@@ -52,29 +50,39 @@ a:hover {
 
 #header {
     user-select: none;
-    margin: 32px 0px;
+    position: absolute;
+    top: 25%; /* Position 25% from the top */
+    width: 100%;
     letter-spacing: 2px;
+    text-align: center;
+    transform: translateY(-50%); /* Adjust for centering */
 }
 
 .texts {
     user-select: none;
-    margin: 32px 0px;
+    position: absolute;
+    top: 50%; /* Position at the center */
+    width: 100%;
     letter-spacing: 0px;
     line-height: 25px;
+    text-align: center;
+    transform: translateY(-50%); /* Adjust for centering */
+}
+
+.footer-links {
+    user-select: none;
+    position: absolute;
+    bottom: 10%; /* Position 10% from the bottom */
+    width: 100%;
+    text-align: center;
 }
 
 #footer {
-    user-select: none;
-    margin: 32px 0px;
+    position: absolute;
+    bottom: 5%; /* Position 5% from the bottom */
+    width: 100%;
     letter-spacing: 2px;
-}
-
-#about {
-    user-select: none;
-    max-width: 180px;
-    color: white;
-    text-align: left;
-    margin: auto auto;
+    text-align: center;
 }
 
 .rainbow {
