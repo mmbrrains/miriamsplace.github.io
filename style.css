@@ -64,25 +64,25 @@ a:hover {
 
 #header {
     user-select: none;
-    margin-bottom: 16px; /* Adjusted margin to control spacing */
+    margin-bottom: 24px; /* Adjusted margin to control spacing */
     letter-spacing: 2px;
 }
 
 .texts {
     user-select: none;
-    margin-bottom: 16px; /* Adjusted margin to control spacing */
+    margin-bottom: 24px; /* Adjusted margin to control spacing */
     letter-spacing: 0px;
     line-height: 25px;
 }
 
 .footer-links {
     user-select: none;
-    margin-bottom: 16px; /* Adjusted margin to control spacing */
+    margin-bottom: 24px; /* Adjusted margin to control spacing */
 }
 
 #footer {
     user-select: none;
-    margin-top: 16px; /* Adjusted margin to control spacing */
+    margin-top: 24px; /* Adjusted margin to control spacing */
     letter-spacing: 2px;
 }
 
