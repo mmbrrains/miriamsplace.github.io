@@ -27,7 +27,6 @@ body.ready {
 
 a {
     color: red;
-    transition: color 0.4s ease;
 }
 
 a:hover {
