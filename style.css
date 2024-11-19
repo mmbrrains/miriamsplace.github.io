@@ -6,7 +6,7 @@ body {
     height: 100vh;
     overflow: hidden;
     background-color: white;
-    transition: background-color .1s ease-out, opacity .1s ease-out;
+    transition: background-color .12s ease-out, opacity .12s ease-out;
     font-family: "Courier New", monospace;
     color: white;
     margin: 0;
