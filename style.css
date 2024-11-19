@@ -9,7 +9,6 @@ body {
     transition: background-color .4s ease-in-out, opacity .4s ease-in-out;
     font-family: "Courier New", monospace;
     color: white;
-    user-select: none;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -43,6 +42,7 @@ a:link {
 }
 
 a.red {
+    user-select: none;
     color: #d00000;
 }
 
@@ -51,17 +51,20 @@ a:hover {
 }
 
 #header {
+    user-select: none;
     margin: 24px 0px;
     letter-spacing: 2px;
 }
 
 .texts {
+    user-select: none;
     margin: 24px 0px;
     letter-spacing: 0px;
     line-height: 25px;
 }
 
 #footer {
+    user-select: none;
     margin: 24px 0px;
     letter-spacing: 2px;
 }
