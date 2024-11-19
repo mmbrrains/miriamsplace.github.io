@@ -12,7 +12,7 @@ document.querySelectorAll('a').forEach(function(link) {
         const href = this.href;
         setTimeout(function() {
             window.location.href = href;
-        }, 500);
+        }, 400);
     });
 });
 
