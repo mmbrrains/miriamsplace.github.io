@@ -5,8 +5,7 @@ html {
 body {
     height: 100vh;
     overflow: hidden;
-    animation: opacity 5s ease-out;
-    font-family: "Courier New", monospace;
+    font-family: "Courier New";
     color: white;
     margin: 0;
     padding: 0;
