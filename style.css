@@ -15,10 +15,8 @@ body {
     font-weight: bold;
     letter-spacing: 2px;
     line-height: 22px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     opacity: 0;
+    position: relative; /* Added to contain absolute children */
 }
 
 body.loaded {
@@ -48,41 +46,36 @@ a:hover {
     color: #300000;
 }
 
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 #header {
     user-select: none;
-    position: absolute;
-    top: 25%;
-    width: 100%;
+    margin-bottom: 16px; /* Adjusted margin to control spacing */
     letter-spacing: 2px;
-    text-align: center;
-    transform: translateY(-50%);
 }
 
 .texts {
     user-select: none;
-    position: absolute;
-    top: 45%;
-    width: 100%;
+    margin-bottom: 16px; /* Adjusted margin to control spacing */
     letter-spacing: 0px;
     line-height: 25px;
-    text-align: center;
-    transform: translateY(-50%);
 }
 
 .footer-links {
     user-select: none;
-    position: absolute;
-    bottom: 30%;
-    width: 100%;
-    text-align: center;
+    margin-bottom: 16px; /* Adjusted margin to control spacing */
 }
 
 #footer {
-    position: absolute;
-    bottom: 25%;
-    width: 100%;
+    user-select: none;
+    margin-top: 16px; /* Adjusted margin to control spacing */
     letter-spacing: 2px;
-    text-align: center;
 }
 
 .rainbow {
