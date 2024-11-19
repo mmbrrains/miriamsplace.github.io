@@ -113,11 +113,11 @@ a:hover {
     }
 }
 
-#header, #footer {
+#header, #footer, .footer-links span {
     animation: fadeIn 1s ease-in forwards; /* Adjust timing as needed */
 }
 
-body.loaded #header, body.loaded #footer {
+body.loaded #header, body.loaded #footer, body.loaded .footer-links span {
     animation: fadeIn 1s ease-in forwards; /* Adjust timing as needed */
 }
 
