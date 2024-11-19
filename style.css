@@ -26,12 +26,12 @@ body.ready {
 }
 
 a {
-    color: #d00000;
+    color: red;
     transition: color 0.4s ease;
 }
 
 a:hover {
-    color: #a00000 !important;
+    color: #800000 !important;
 }
 
 a:link {
@@ -40,7 +40,7 @@ a:link {
 
 a.red {
     user-select: none;
-    color: #d00000;
+    color: red;
 }
 
 a:hover {
