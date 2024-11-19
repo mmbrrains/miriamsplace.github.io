@@ -104,23 +104,21 @@ a:hover {
     }
 }
 
-@keyframes fadeInFromWhite {
+@keyframes fadeIn {
     0% {
-        color: white;
         opacity: 0;
     }
     100% {
-        color: #d00000; /* Final text color (adjust as needed) */
         opacity: 1;
     }
 }
 
 #header, #footer {
-    animation: fadeInFromWhite 1s ease-out forwards; /* Adjust timing as needed */
+    animation: fadeIn 1s ease-in forwards; /* Adjust timing as needed */
 }
 
 body.loaded #header, body.loaded #footer {
-    animation: fadeInFromWhite 1s ease-out forwards; /* Adjust timing as needed */
+    animation: fadeIn 1s ease-in forwards; /* Adjust timing as needed */
 }
 
 
