@@ -6,15 +6,21 @@ window.addEventListener('load', () => {
         document.body.classList.add('loaded');
 });
 
-document.querySelectorAll('a').forEach(function(link) {
-    link.addEventListener('click', function(event) {
-        event.preventDefault();
-        const href = this.href;
-        setTimeout(function() {
-            window.location.href = href;
-        }, 400);
-    });
-});
+document.addEventListener("DOMContentLoaded", function() {
+            document.body.classList.add('loaded');
+
+            // Add click event listener to all links
+            const links = document.querySelectorAll('a');
+            links.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault(); // Prevent default action
+                    link.style.color = 'blue'; // Change color to blue
+                    setTimeout(() => {
+                        window.location.href = link.href; // Follow the link after a delay
+                    }, 400); // Adjust delay as needed
+                });
+            });
+        });
 
 document.addEventListener('DOMContentLoaded', () => {
     const rainbowColors = [
