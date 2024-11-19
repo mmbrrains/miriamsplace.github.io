@@ -70,6 +70,7 @@ a:hover {
 }
 
 #about {
+    user-select: none;
     max-width: 175px;
     color: white;
     text-align: left;
