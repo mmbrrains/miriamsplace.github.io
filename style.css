@@ -54,6 +54,13 @@ a:hover {
     text-align: center;
 }
 
+#about {
+    user-select: none;
+    margin: 32px 0px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
 #header {
     user-select: none;
     margin-bottom: 16px; /* Adjusted margin to control spacing */
