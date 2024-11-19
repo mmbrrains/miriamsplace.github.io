@@ -117,19 +117,19 @@ a:hover {
 
 /* Fade-in animation */
 #header, #footer, #about span {
-    animation: fadeIn .4s ease-in forwards; /* Adjust timing as needed */
+    animation: fadeIn .5s ease-in forwards; /* Adjust timing as needed */
 }
 body.loaded #header, body.loaded #footer, body.loaded #about span {
-    animation: fadeIn .4s ease-in forwards; /* Adjust timing as needed */
+    animation: fadeIn .5s ease-in forwards; /* Adjust timing as needed */
 }
 
 
 .texts, .footer-links a, #about a {
-    animation: fadeInFromBlue .4s ease-out forwards; /* Adjust timing as needed */
+    animation: fadeInFromBlue .5s ease-out forwards; /* Adjust timing as needed */
 }
 
 body.loaded .texts a, body.loaded .footer-links a, body.loaded #about a {
-    animation: fadeInFromBlue .4s ease-out forwards; /* Adjust timing as needed */
+    animation: fadeInFromBlue .5s ease-out forwards; /* Adjust timing as needed */
 }
 
 /* Rainbow animation */
