@@ -93,6 +93,25 @@ a:hover {
     letter-spacing: 2px;
 }
 
+@keyframes fadeInFromBlue {
+    0% {
+        color: blue;
+        opacity: 0;
+    }
+    100% {
+        color: #d00000; /* Final link color */
+        opacity: 1;
+    }
+}
+
+.texts a, .footer-links a {
+    animation: fadeInFromBlue 1s ease-out forwards; /* Adjust timing as needed */
+}
+
+body.loaded .texts a, body.loaded .footer-links a {
+    animation: fadeInFromBlue 1s ease-out forwards; /* Adjust timing as needed */
+}
+
 .rainbow {
     animation: rainbow .5s infinite linear;
 }
