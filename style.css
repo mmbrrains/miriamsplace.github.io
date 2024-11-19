@@ -106,11 +106,11 @@ body.loaded #header, body.loaded #footer, body.loaded #about span {
     animation: fadeIn .5s ease-out forwards; /* Adjust timing as needed */
 }
 
-.texts a, .footer-links a, #about a {
+#texts a, #footer-links a, #about a {
     animation: fadeInFromBlue .5s ease-out forwards; /* Adjust timing as needed */
 }
 
-body.loaded .texts a, body.loaded .footer-links a, body.loaded #about a {
+body.loaded #texts a, body.loaded #footer-links a, body.loaded #about a {
     animation: fadeInFromBlue .5s ease-out forwards; /* Adjust timing as needed */
 }
 
