@@ -61,7 +61,7 @@ a:hover {
 .texts {
     user-select: none;
     position: absolute;
-    top: 50%;
+    top: 45%;
     width: 100%;
     letter-spacing: 0px;
     line-height: 25px;
