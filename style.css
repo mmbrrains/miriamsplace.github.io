@@ -27,20 +27,15 @@ a:link {
     text-decoration: none;
 }
 
-a.red {
-    user-select: none;
-    color: red;
-}
-
 a:hover {
     color: #200000;
 }
 
 #container {
+    transform: translate(-50%, -50%);
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
 }
 
@@ -57,7 +52,7 @@ a:hover {
     user-select: none;
     margin-left: 32px;
     margin-right: 32px;
-    margin-bottom: 48px; /* Adjusted margin to control spacing */
+    margin-bottom: 48px;
     letter-spacing: 2px;
 }
 
@@ -65,7 +60,7 @@ a:hover {
     user-select: none;
     margin-left: 32px;
     margin-right: 32px;
-    margin-bottom: 48px; /* Adjusted margin to control spacing */
+    margin-bottom: 48px;
     letter-spacing: 0px;
     line-height: 25px;
 }
@@ -74,13 +69,13 @@ a:hover {
     margin-left: 32px;
     margin-right: 32px;
     user-select: none;
-    margin-bottom: 24px; /* Adjusted margin to control spacing */
+    margin-bottom: 24px;
 }
 
 #footer {
     margin-left: 32px;
     margin-right: 32px;
-    margin-top: 24px; /* Adjusted margin to control spacing */
+    margin-top: 24px;
     letter-spacing: 2px;
 }
 
@@ -91,7 +86,7 @@ a:hover {
         opacity: 0;
     }
     100% {
-        color: #d00000; /* Final link color */
+        color: red;
         opacity: 1;
     }
 }
@@ -105,7 +100,6 @@ a:hover {
     }
 }
 
-/* Fade-in animation */
 #header, #footer, #about span {
     animation: fadeIn .5s ease-out forwards; /* Adjust timing as needed */
 }
@@ -121,7 +115,6 @@ body.loaded .texts a, body.loaded .footer-links a, body.loaded #about a {
     animation: fadeInFromBlue .5s ease-out forwards; /* Adjust timing as needed */
 }
 
-/* Rainbow animation */
 .rainbow {
     animation: rainbow .5s infinite linear;
 }
@@ -144,9 +137,4 @@ body.loaded .texts a, body.loaded .footer-links a, body.loaded #about a {
     71%  { color: #6A5ACD; }
     85%  { color: #9400D3; }
     100% { color: #C71585; }
-}
-
-/* Hover effects for links */
-a:hover {
-    color: #200000;
 }
