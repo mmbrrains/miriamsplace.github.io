@@ -39,7 +39,7 @@ body {
     line-height: 25px;
 }
 
-.footer-links {
+#footer-links {
     margin-left: 32px;
     margin-right: 32px;
     user-select: none;
