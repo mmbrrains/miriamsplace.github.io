@@ -104,6 +104,26 @@ a:hover {
     }
 }
 
+@keyframes fadeInFromWhite {
+    0% {
+        color: white;
+        opacity: 0;
+    }
+    100% {
+        color: #d00000; /* Final text color (adjust as needed) */
+        opacity: 1;
+    }
+}
+
+#header, #footer {
+    animation: fadeInFromWhite 1s ease-out forwards; /* Adjust timing as needed */
+}
+
+body.loaded #header, body.loaded #footer {
+    animation: fadeInFromWhite 1s ease-out forwards; /* Adjust timing as needed */
+}
+
+
 .texts a, .footer-links a {
     animation: fadeInFromBlue .4s ease-out forwards; /* Adjust timing as needed */
 }
