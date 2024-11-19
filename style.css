@@ -61,6 +61,7 @@ a:hover {
     margin: 32px 0px;
     letter-spacing: 2px;
     line-height: 25px;
+    text-align: left;
 }
 
 #header {
