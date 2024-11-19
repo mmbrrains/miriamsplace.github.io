@@ -87,7 +87,7 @@ a:hover {
 }
 
 .rainbow {
-    animation: rainbow 1s infinite linear;
+    animation: rainbow .5s infinite linear;
 }
 
 .rainbow-color-1 { color: #DC143C; }
