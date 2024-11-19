@@ -1,3 +1,4 @@
+/* General Styles */
 html {
     background-color: black;
 }
@@ -5,7 +6,6 @@ html {
 body {
     height: 100vh;
     overflow: hidden;
-    /*transition: background-color .12s ease-out, opacity .12s ease-out;*/
     font-family: "Courier New", monospace;
     color: white;
     margin: 0;
@@ -92,6 +92,7 @@ a:hover {
     letter-spacing: 2px;
 }
 
+/* Keyframes for animations */
 @keyframes fadeInFromBlue {
     0% {
         color: blue;
@@ -112,6 +113,7 @@ a:hover {
     }
 }
 
+/* Fade-in animation */
 #header, #footer, #about span {
     animation: fadeIn .8s ease-in forwards; /* Adjust timing as needed */
 }
@@ -119,7 +121,6 @@ a:hover {
 body.loaded #header, body.loaded #footer, body.loaded #about span {
     animation: fadeIn .8s ease-in forwards; /* Adjust timing as needed */
 }
-
 
 .texts a, .footer-links a, #about a {
     animation: fadeInFromBlue .4s ease-out forwards; /* Adjust timing as needed */
@@ -129,6 +130,7 @@ body.loaded .texts a, body.loaded .footer-links a, body.loaded #about a {
     animation: fadeInFromBlue .4s ease-out forwards; /* Adjust timing as needed */
 }
 
+/* Rainbow animation */
 .rainbow {
     animation: rainbow .5s infinite linear;
 }
@@ -151,4 +153,9 @@ body.loaded .texts a, body.loaded .footer-links a, body.loaded #about a {
     71%  { color: #6A5ACD; }
     85%  { color: #9400D3; }
     100% { color: #C71585; }
+}
+
+/* Hover effects for links */
+a:hover {
+    color: #200000;
 }
