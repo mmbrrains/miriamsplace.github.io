@@ -18,7 +18,7 @@ body {
     padding: 0px;
     font-size: 14px;
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     line-height: 22px;
 }
 
@@ -60,6 +60,7 @@ a:hover {
 }
 
 .texts {
+    letter-spacing: 0px;
     line-height: 25px;
 }
 
