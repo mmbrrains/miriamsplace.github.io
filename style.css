@@ -64,13 +64,13 @@ a:hover {
 
 #header {
     user-select: none;
-    margin-bottom: 32px; /* Adjusted margin to control spacing */
+    margin-bottom: 48px; /* Adjusted margin to control spacing */
     letter-spacing: 2px;
 }
 
 .texts {
     user-select: none;
-    margin-bottom: 32px; /* Adjusted margin to control spacing */
+    margin-bottom: 48px; /* Adjusted margin to control spacing */
     letter-spacing: 0px;
     line-height: 25px;
 }
