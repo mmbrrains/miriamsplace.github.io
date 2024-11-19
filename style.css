@@ -51,18 +51,18 @@ a:hover {
 }
 
 #header {
-    margin: 16px 0px;
+    margin: 24px 0px;
     letter-spacing: 2px;
 }
 
 .texts {
-    margin: 16px 0px;
+    margin: 24px 0px;
     letter-spacing: 0px;
     line-height: 25px;
 }
 
 #footer {
-    margin: 16px 0px;
+    margin: 24px 0px;
     letter-spacing: 2px;
 }
 
