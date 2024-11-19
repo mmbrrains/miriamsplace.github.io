@@ -13,16 +13,6 @@ body {
     font-weight: bold;
     letter-spacing: 2px;
     line-height: 22px;
-    opacity: 0;
-}
-
-body.loaded {
-    background-color: transparent;
-    opacity: 1;
-}
-
-body.ready {
-    opacity: 1;
 }
 
 a {
