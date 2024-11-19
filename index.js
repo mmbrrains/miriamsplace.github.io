@@ -13,8 +13,11 @@ document.addEventListener("DOMContentLoaded", function() {
             const links = document.querySelectorAll('a');
             links.forEach(link => {
                 link.addEventListener('click', function(event) {
-                    event.preventDefault(); // Prevent default action
-                    link.style.color = 'blue'; // Change color to blue
+                    event.preventDefault(); // Prevent the default link behavior
+                    link.style.transition = "color 0.4s ease"; // Add transition effect
+                    link.style.color = 'blue'; // Change link color to blue
+
+                    // After the color change animation, navigate to the link
                     setTimeout(() => {
                         window.location.href = link.href; // Follow the link after a delay
                     }, 400); // Adjust delay as needed
