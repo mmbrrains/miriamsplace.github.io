@@ -38,7 +38,7 @@ body.ready {
 }
 
 a {
-    color: #f00000;
+    color: #d00000;
     transition: color 0.5s ease;
 }
 
@@ -47,7 +47,7 @@ a:link {
 }
 
 a.red {
-    color: #f00000;
+    color: #d00000;
 }
 
 a:hover {
