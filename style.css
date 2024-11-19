@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-    color: #600000;
+    color: #600000 !important;
 }
 
 a:link {
