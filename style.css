@@ -113,7 +113,7 @@ body.loaded #header, body.loaded #footer, body.loaded #about span {
     animation: fadeIn 1s ease-in forwards; /* Adjust timing as needed */
 }
 
-.texts, .footer-links a, #about a {
+.texts a, .footer-links a, #about a {
     animation: fadeInFromBlue 1s ease-out forwards; /* Adjust timing as needed */
 }
 
