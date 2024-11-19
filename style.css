@@ -115,15 +115,6 @@ a:hover {
     }
 }
 
-/* Fade-in animation */
-#header, #footer, #about span {
-    animation: fadeIn .4s ease-in forwards; /* Adjust timing as needed */
-}
-
-body.loaded #header, body.loaded #footer, body.loaded #about span {
-    animation: fadeIn .4s ease-in forwards; /* Adjust timing as needed */
-}
-
 .texts, .footer-links a, #header, #footer, #about {
     animation: fadeInFromBlue .4s ease-out forwards; /* Adjust timing as needed */
 }
