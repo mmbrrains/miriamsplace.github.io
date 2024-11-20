@@ -25,7 +25,7 @@ body {
     user-select: none;
     margin-left: 32px;
     margin-right: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 #texts {
@@ -41,13 +41,13 @@ body {
     margin-left: 32px;
     margin-right: 32px;
     user-select: none;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 #footer {
     margin-left: 32px;
     margin-right: 32px;
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 #about {
