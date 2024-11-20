@@ -59,6 +59,10 @@ body {
     line-height: 20px;
 }
 
+a {
+    transition: color 0.5s ease;
+}
+
 a:hover {
     color: #400000 !important;
 }
