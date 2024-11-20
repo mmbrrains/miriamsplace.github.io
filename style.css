@@ -98,10 +98,6 @@ body.loaded #header, body.loaded #footer, body.loaded #about span, body.loaded #
     animation: fadeInFromBlue .5s ease-in forwards;
 }
 
-body.loaded #texts a, body.loaded #footer-links a, body.loaded #about a {
-    animation: fadeInFromBlue .5s ease-in forwards;
-}
-
 .rainbow {
     animation: rainbow .25s infinite linear;
 }
