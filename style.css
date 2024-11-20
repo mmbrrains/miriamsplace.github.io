@@ -52,11 +52,11 @@ body {
 
 #about {
     user-select: none;
-    width: 180px;
+    width: 200px;
     margin: 32px 32px;
     letter-spacing: 2px;
     text-align: left;
-    line-height: 18px;
+    line-height: 24px;
 }
 
 a:hover {
