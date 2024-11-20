@@ -60,10 +60,6 @@ body {
     line-height: 20px;
 }
 
-a {
-    color: red;
-}
-
 a:hover {
     color: #400000 !important;
 }
