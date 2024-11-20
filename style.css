@@ -25,15 +25,15 @@ body {
     user-select: none;
     margin-left: 32px;
     margin-right: 32px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 #texts {
     user-select: none;
     margin-left: 32px;
     margin-right: 32px;
-    margin-bottom: 24px;
-    line-height: 20px;
+    margin-bottom: 16px;
+    line-height: 18px;
 }
 
 #footer-links {
@@ -56,7 +56,7 @@ body {
     margin: 32px 32px;
     letter-spacing: 2px;
     text-align: left;
-    line-height: 20px;
+    line-height: 18px;
 }
 
 a:hover {
