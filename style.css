@@ -103,7 +103,7 @@ body.loaded #texts a, body.loaded #footer-links a, body.loaded #about a {
 }
 
 .rainbow {
-    animation: rainbow .5s infinite linear;
+    animation: rainbow .25s infinite linear;
 }
 
 .rainbow-color-1 { color: #DC143C; }
