@@ -33,7 +33,7 @@ body {
     margin-left: 32px;
     margin-right: 32px;
     margin-bottom: 32px;
-    line-height: 20px;
+    line-height: 22px;
 }
 
 #footer-links {
@@ -87,10 +87,7 @@ a:link {
     }
 }
 
-#header, #footer, #about span, #footer-links span {
-    animation: fadeIn .5s ease-in forwards;
-}
-body.loaded #header, body.loaded #footer, body.loaded #about span, body.loaded #footer-links span {
+#header, #footer, #about span {
     animation: fadeIn .5s ease-in forwards;
 }
 
