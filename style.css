@@ -22,7 +22,6 @@ body {
 }
 
 #header {
-    letter-spacing: 2px;
     user-select: none;
     margin-left: 32px;
     margin-right: 32px;
