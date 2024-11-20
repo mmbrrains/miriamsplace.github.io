@@ -25,14 +25,14 @@ body {
     user-select: none;
     margin-left: 32px;
     margin-right: 32px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
 #texts {
     user-select: none;
     margin-left: 32px;
     margin-right: 32px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     line-height: 24px;
 }
 
