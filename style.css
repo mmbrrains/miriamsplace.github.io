@@ -91,7 +91,7 @@ a:link {
     animation: fadeIn .2s ease-in forwards;
 }
 
-#texts a, #footer-links a, #about a, #footer-links a:hover {
+#texts a, #footer-links a, #about a {
     animation: fadeInFromBlue .2s ease-in forwards;
 }
 
