@@ -88,11 +88,11 @@ a:link {
 }
 
 #header, #footer, #about span {
-    animation: fadeIn .3s ease-in forwards;
+    animation: fadeIn .2s ease-in forwards;
 }
 
 #texts a, #footer-links a, #about a, #footer-links a:hover {
-    animation: fadeInFromBlue .3s ease-in forwards;
+    animation: fadeInFromBlue .2s ease-in forwards;
 }
 
 .rainbow {
