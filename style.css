@@ -6,6 +6,7 @@ body {
     height: 100vh;
     overflow: hidden;
     font-family: "Courier New";
+    line-height: 20px;
     font-weight: bold;
     font-size: 14px;
     color: white;
@@ -33,7 +34,6 @@ body {
     margin-left: 32px;
     margin-right: 32px;
     margin-bottom: 16px;
-    line-height: 20px;
 }
 
 #footer-links {
@@ -55,7 +55,6 @@ body {
     margin: 32px 32px;
     letter-spacing: 2px;
     text-align: left;
-    line-height: 21px;
 }
 
 a:hover {
