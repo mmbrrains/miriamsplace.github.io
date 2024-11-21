@@ -25,14 +25,14 @@ body {
     user-select: none;
     margin-left: 32px;
     margin-right: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 #texts {
     user-select: none;
     margin-left: 32px;
     margin-right: 32px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     line-height: 21px;
 }
 
@@ -41,13 +41,13 @@ body {
     margin-left: 32px;
     margin-right: 32px;
     user-select: none;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 #footer {
     margin-left: 32px;
     margin-right: 32px;
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 #about {
