@@ -6,7 +6,7 @@ body {
     height: 100vh;
     overflow: hidden;
     font-family: "Courier New";
-    line-height: 19px;
+    line-height: 20px;
     font-weight: bold;
     font-size: 14px;
     color: white;
@@ -40,13 +40,13 @@ body {
     margin-left: 32px;
     margin-right: 32px;
     user-select: none;
-    margin-bottom: 26px;
+    margin-bottom: 24px;
 }
 
 #footer {
     margin-left: 32px;
     margin-right: 32px;
-    margin-top: 26px;
+    margin-top: 24px;
 }
 
 #about {
