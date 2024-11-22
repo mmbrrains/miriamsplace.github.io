@@ -89,7 +89,7 @@ a:link {
     animation: fadeIn .15s ease-in forwards;
 }
 
-#texts a, #footer-link, #about a {
+#texts a, #footer-links span, #about a {
     animation: fadeInFromBlue .2s ease-in forwards;
 }
 
