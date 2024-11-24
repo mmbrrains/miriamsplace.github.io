@@ -85,7 +85,7 @@ a:link {
 }
 
 #header, #footer, #about span {
-    animation: fadeIn .15s ease-in forwards;
+    animation: fadeIn .2s ease-in forwards;
 }
 
 #texts a, .fade, #about a {
