@@ -51,9 +51,8 @@ body {
 
 #about {
     user-select: none;
-    width: 180px;
+    width: 160px;
     margin: 32px 32px;
-    letter-spacing: 2px;
     text-align: left;
 }
 
