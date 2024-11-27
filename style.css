@@ -47,13 +47,6 @@ body {
     width: 150px;
 }
 
-#about {
-    user-select: none;
-    width: 150px;
-    margin: 32px 32px;
-    text-align: left;
-}
-
 a:hover {
     color: #400000 !important;
 }
