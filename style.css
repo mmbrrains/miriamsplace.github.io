@@ -77,7 +77,7 @@ a:link {
     }
 }
 
-#header span, #foooter span {
+#header span, #footer span {
     animation: fadeIn .5s ease-in forwards;
 }
 
