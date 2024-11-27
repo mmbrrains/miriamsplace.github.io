@@ -59,7 +59,7 @@ a:link {
 }
 
 a {
-    animation: fadeInFromBlue .2s ease-in forwards;
+    animation: fadeInFromBlue .5s ease-in forwards;
 }
 
 .rainbow {
