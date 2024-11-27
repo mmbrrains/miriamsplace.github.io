@@ -28,6 +28,7 @@ body {
     margin-right: 32px;
     margin-bottom: 26px;
     width: 150px;
+    color: #a00000;
 }
 
 #texts {
@@ -44,12 +45,6 @@ body {
     user-select: none;
     margin-bottom: 26px;
     width: 150px;
-}
-
-#footer {
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-top: 26px;
 }
 
 #about {
