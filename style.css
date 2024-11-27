@@ -27,6 +27,7 @@ body {
     white-space: nowrap;
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: 0px;
     margin-bottom: 18px;
     color: blue;
 }
@@ -44,6 +45,7 @@ body {
 #footer {
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
     letter-spacing: 3px;
     user-select: none;
     color: blue;
