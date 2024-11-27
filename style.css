@@ -22,21 +22,12 @@ body {
     text-align: left;
 }
 
-#header {
-    user-select: none;
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-bottom: 26px;
-    width: 150px;
-    color: #a00000;
-}
-
 #texts {
     user-select: none;
     margin-left: 32px;
     margin-right: 32px;
     margin-bottom: 24px;
-    width: 150px;
+    letter-spacing: 2px;
 }
 
 #footer {
@@ -44,7 +35,6 @@ body {
     margin-right: 32px;
     user-select: none;
     margin-bottom: 26px;
-    width: 150px;
 }
 
 a:hover {
@@ -66,20 +56,7 @@ a:link {
     }
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-#header, #footer, #about span {
-    animation: fadeIn .2s ease-in forwards;
-}
-
-#texts a, .fade, #about a {
+a {
     animation: fadeInFromBlue .2s ease-in forwards;
 }
 
