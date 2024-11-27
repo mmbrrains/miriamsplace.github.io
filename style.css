@@ -17,7 +17,6 @@ body {
 #container {
     transform: translate(-50%, -50%);
     position: absolute;
-    width: 200px;
     top: 50%;
     left: 50%;
     text-align: left;
@@ -42,6 +41,8 @@ body {
     margin-right: 32px;
     user-select: none;
     margin-bottom: 26px;
+    width: 140px;
+
 }
 
 #footer {
