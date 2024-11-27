@@ -27,6 +27,7 @@ body {
     margin-left: 32px;
     margin-right: 32px;
     margin-bottom: 26px;
+    width: 150px;
 }
 
 #texts {
@@ -34,7 +35,7 @@ body {
     margin-left: 32px;
     margin-right: 32px;
     margin-bottom: 24px;
-    width: 140px;
+    width: 150px;
 
 }
 
@@ -43,7 +44,7 @@ body {
     margin-right: 32px;
     user-select: none;
     margin-bottom: 26px;
-    width: 140px;
+    width: 150px;
 
 }
 
