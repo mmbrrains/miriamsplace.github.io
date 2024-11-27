@@ -27,7 +27,7 @@ body {
     white-space: nowrap;
     margin-left: 32px;
     margin-right: 32px;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
     color: blue;
 }
 
@@ -38,7 +38,7 @@ body {
     letter-spacing: 2px;
     margin-left: 32px;
     margin-right: 32px;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
 }
 
 #footer {
@@ -78,15 +78,15 @@ a:link {
 }
 
 #header span, #footer span {
-    animation: fadeIn .3s ease-in forwards;
+    animation: fadeIn .2s ease-in forwards;
 }
 
 a {
-    animation: fadeInFromBlue .3s ease-in forwards;
+    animation: fadeInFromBlue .2s ease-in forwards;
 }
 
 .rainbow {
-    animation: rainbow .3s infinite linear;
+    animation: rainbow .2s infinite linear;
 }
 
 .rainbow-color-1 { color: #DC143C; }
