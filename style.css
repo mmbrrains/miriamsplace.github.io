@@ -22,6 +22,14 @@ body {
     text-align: left;
 }
 
+#header {
+    user-select: none;
+    white-space: nowrap;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 24px;
+}
+
 #texts {
     user-select: none;
     white-space: nowrap;
