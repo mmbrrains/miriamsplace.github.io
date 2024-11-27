@@ -21,11 +21,11 @@ body {
     top: 50%;
     left: 50%;
     text-align: left;
-    width: 250px;
 }
 
 #texts {
     user-select: none;
+    white-space: nowrap;
     word-spacing: -4px;
     margin-left: 32px;
     margin-right: 32px;
@@ -36,7 +36,6 @@ body {
     margin-left: 32px;
     margin-right: 32px;
     user-select: none;
-    margin-bottom: 26px;
 }
 
 a:hover {
