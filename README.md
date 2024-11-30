@@ -1,1 +1,1 @@
-# repo for miriam's place
+# repo for personal site
