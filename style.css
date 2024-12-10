@@ -79,15 +79,15 @@ a:link {
 }
 
 #header span, #footer span {
-    animation: fadeIn .2s ease-in forwards;
+    animation: fadeIn .4s ease-in forwards;
 }
 
 a {
-    animation: fadeInFromBlue .2s ease-in forwards;
+    animation: fadeInFromBlue .8s ease-in forwards;
 }
 
 .rainbow {
-    animation: rainbow .2s infinite linear;
+    animation: rainbow .4s infinite linear;
 }
 
 .rainbow-color-1 { color: #DC143C; }
